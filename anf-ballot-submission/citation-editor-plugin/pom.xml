@@ -24,6 +24,7 @@
             <groupId>org.slf4j</groupId>
             <artifactId>log4j-over-slf4j</artifactId>
             <version>2.0.13</version>
+            <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>junit</groupId>
@@ -105,7 +106,6 @@
             <artifactId>maven-plugin-annotations</artifactId>
             <version>3.4</version>
         </dependency>
-
     </dependencies>
 
     <build>
