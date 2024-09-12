@@ -209,9 +209,8 @@
                 xrefstyle="select:label"/>, the Reference Models of both CIMI v2 and FHIR are shaded
             grey, which is intended to illustrate that these Reference Models mix clinical
             terminology concerns into the properties of their Reference Model. Remember, it is a
-            <?oxy_comment_start author="steph" timestamp="20191008T124333-0600" comment="Should this be &quot;tenet&quot; instead?"?>tenant<?oxy_comment_end?>
-            of the Architectural Separation of Concerns that layers should not mix concerns. What
-            does this mean in terms of the Statement Model layer? <xref
+            tenet of the Architectural Separation of Concerns that layers should not mix concerns.
+            What does this mean in terms of the Statement Model layer? <xref
                 linkend="Ref_FHIR_ObservationResource_3535" xrefstyle="select:label"/> shows the
             FHIR Observation resource which names properties for specimen and method. The problem is
             that the code property for this resource already represents some of this information.

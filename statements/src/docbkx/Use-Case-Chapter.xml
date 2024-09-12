@@ -34,9 +34,9 @@
                 error by navigating the site, understanding the concept versioning and history,
                 making edits to resolve the issue in real-time, and committing the changes to the
                 community at large, other Terminology Standards lack in coordinating this rapid
-                approach. If an user identified this error and submitted it to Systemized
+                approach. if a user identified this error and submitted it to Systemized
                 Nomenclature of Medicine – Clinical Terms® (SNOMED CT®), they might have to wait a
-                full six months before SNOMED CT® pushed their bi-annual updates and might be forced
+                full six months before SNOMED CT® pushes their bi-annual updates and might be forced
                 to employ sub-optimal work arounds to address the issue until then. This real-time
                 approach of managing integrated knowledge management also allows the creation of
                 concepts, such as SARS-CoV-2 (COVID-19), to meet emerging conditions and clinical
@@ -168,28 +168,27 @@
                 Case</title>
             <section>
                 <title>Aim 1: Document a Current State Long COVID Workflow Depicting Data Loss </title>
-                <para>The team developed the generalized Long COVID workflow depicted in Figure 1
-                    highlighting the steps a patient takes throughout their diagnostic journey with
-                    accompanying data generated at each step. The team gathered foundational Long
-                    COVID research to establish a comprehensive list of widely accepted and
-                    important data elements and data entry points for the workflow. [10-13] A
-                    template form was created to gather input from the team members on these data
-                    elements including actors, descriptions, triggers, pre and post conditions,
-                    assumptions, and data fields, and eight team members independently documented
-                    considerations in the workflow. Team members had varying professional
-                    backgrounds including MD, NP, RN, Informaticist, Terminologists, Health Level
-                    Seven International (HL7) Interface Engineers, Public Health, and Systems
-                    Engineering. The team met to discuss the exercise and highlight differing
-                    approaches in the team’s documentation and considerations. Common themes were
-                    extracted and used in Visio to develop an initial draft of a generalized Long
-                    COVID use case workflow schematic that was iterated upon based on subject matter
-                    expert and key stakeholder input. The workflow follows an inpatient and
-                    outpatient path and identifies common steps in a patient’s diagnostic journey
-                    along with associated data to highlight opportunities for more accurate and
-                    comprehensive data collection. Several important data elements were identified
-                    including patient symptoms, medical history, laboratory tests and orders,
-                    vaccination history, demographics, and prescriptions, and it was noted whether
-                    those data are currently collected or lost.</para> 
+                <para>A generalized Long COVID workflow is depicted in Figure 1 highlighting the
+                    steps a patient takes throughout their diagnostic journey with accompanying data
+                    generated at each step. Foundational Long COVID research was gathered to
+                    establish a comprehensive list of widely accepted and important data elements
+                    and data entry points for the workflow. [10-13] A template form was created to
+                    gather input on these data elements including actors, descriptions, triggers,
+                    pre and post conditions, assumptions, and data fields, and eight team members
+                    independently documented considerations in the workflow. Team members had
+                    varying professional backgrounds including MD, NP, RN, Informaticist,
+                    Terminologists, Health Level Seven International (HL7) Interface Engineers,
+                    Public Health, and Systems Engineering. Results from the exercise were discussed
+                    to highlight differing approaches in documentation and considerations. Common
+                    themes were extracted and used in Visio to develop an initial draft of a
+                    generalized Long COVID use case workflow schematic that was iterated upon based
+                    on subject matter expert and key stakeholder input. The workflow follows an
+                    inpatient and outpatient path and identifies common steps in a patient’s
+                    diagnostic journey along with associated data to highlight opportunities for
+                    more accurate and comprehensive data collection. Several important data elements
+                    were identified including patient symptoms, medical history, laboratory tests
+                    and orders, vaccination history, demographics, and prescriptions, and it was
+                    noted whether those data are currently collected or lost.</para> 
                 <figure xml:id="GeneralizedCurrentStateLongCovidWorkflow">
                     <title>Generalized Current State Long COVID Workflow</title>
                     <mediaobject>
@@ -202,13 +201,13 @@
             <section>
                 <title>Aim 2: Establish the Future State of Patient Care</title>
                 <para>Once a standardized general Long COVID diagnostic workflow schematic was
-                    developed, the team honed in on the outpatient scenario to capture the patient
-                    journey in greater detail. The team chose to focus on an outpatient scenario as
-                    there is a larger propensity for data loss when the patient is not under the
-                    continuous monitoring of inpatient care. This new BPMN schematic closely
-                    examined the parallel paths that a patient in an outpatient setting could follow
-                    before arriving at a Long COVID diagnosis to support improved Clinical Decision
-                    Support (CDS), patient care, and data collection and usage. This resulted in an
+                    developed, the outpatient scenario was honed in on to capture the patient
+                    journey in greater detail. The outpatient scenario was a focus as there is a
+                    larger propensity for data loss when the patient is not under the continuous
+                    monitoring of inpatient care. This new BPMN schematic closely examined the
+                    parallel paths that a patient in an outpatient setting could follow before
+                    arriving at a Long COVID diagnosis to support improved Clinical Decision Support
+                    (CDS), patient care, and data collection and usage. This resulted in an
                     approximate current state patient workflow as well as an idealized future state
                     patient workflow with a supplementary data flow schematic. Note that while these
                     scenarios used Long COVID as an inspiration, the underlying principles can be
@@ -254,15 +253,15 @@
             </section>
             <section>
                 <title>Aim 3: Establish the Future State Data Workflow</title>
-                <para>Building upon the Future State Outpatient Long COVID Workflow, the team worked
-                    with subject matter experts in public health reporting, laboratory data systems,
-                    and health informatics to identify points in the patient care workflow where
-                    data are captured, where data capture could be improved, and resources or
-                    technologies that could support the improved data capture. The team then
-                    developed a separate schematic (<xref linkend="IdealizedFuturestatedataLongCovidWorkflow"/>) to showcase an idealized flow of those
-                    data; the workflow is framed around an OTC COVID-19 test trigger and showcases
-                    how data should be captured, transmitted, stored, and prepared for downstream
-                    analytical and secondary use. </para>
+                <para>Building upon the Future State Outpatient Long COVID Workflow, subject matter
+                    experts in public health reporting, laboratory data systems, and health
+                    informatics identified points in the patient care workflow where data are
+                    captured, where data capture could be improved, and resources or technologies
+                    that could support the improved data capture. A separate schematic (<xref
+                        linkend="IdealizedFuturestatedataLongCovidWorkflow"/>) was developed to
+                    showcase an idealized flow of those data; the workflow is framed around an OTC
+                    COVID-19 test trigger and showcases how data should be captured, transmitted,
+                    stored, and prepared for downstream analytical and secondary use. </para>
                 <figure xml:id="IdealizedFuturestatedataLongCovidWorkflow">
                     <title>Idealized Future State Data Long COVID Workflow</title>
                     <mediaobject>
@@ -301,14 +300,15 @@
             <title>Results from the Emerging Acute and Chronic Infectious Diseases Use Case</title>
             <section>
                 <title>Aim 1: Document a Current State Long COVID Workflow Depicting Data Loss </title>
-                <para>The team developed <xref linkend="GeneralizedCurrentStateLongCovidWorkflow"/>, a generalized workflow that outlines a patient’s
-                    journey to a Long COVID diagnosis by aggregating common themes, data elements,
-                    and components from the information that team members individually collected. In
-                    the current state, critical data associated with OTC testing, patient symptoms,
-                    symptom progression, and timelines are either lost or sub-optimally reported.
-                    Accurate and standardized data reporting at all stages of a patient’s diagnosis
-                    is needed to support improved patient care, research, and public health and
-                    policy decision making.</para>
+                <para>A <xref linkend="GeneralizedCurrentStateLongCovidWorkflow"/>generalized
+                    workflow that outlines was created to document a patient’s journey to a Long
+                    COVID diagnosis by aggregating common themes, data elements, and components from
+                    the information that team members individually collected. In the current state,
+                    critical data associated with OTC testing, patient symptoms, symptom
+                    progression, and timelines are either lost or sub-optimally reported. Accurate
+                    and standardized data reporting at all stages of a patient’s diagnosis is needed
+                    to support improved patient care, research, and public health and policy
+                    decision making.</para>
                 <para><emphasis role="italic">Outpatient Path</emphasis></para>
                 <para>A first instance of data loss occurs in the outpatient path when the patient
                     takes the first at-home OTC test; test results, symptoms at time of testing, and
@@ -339,8 +339,8 @@
             </section>
             <section>
                 <title>Aim 2: Establish the Future State of Patient Care</title>
-                <para>Once the generalized Long COVID use case was developed, the team explored a
-                    more specific scenario that begins with a prompt for a patient to take an OTC
+                <para>Once the generalized Long COVID use case was developed, a more specific
+                    scenario was explored that begins with a prompt for a patient to take an OTC
                     COVID-19 test. Current and standardized data points were identified in the
                     representative patient flow and categorized as captured or uncaptured data. The
                     workflow highlighted the major steps over the course of a patient’s Long COVID
@@ -624,15 +624,15 @@
                 test trigger, the purchase and use of a COVID-19 OTC test, and the administration of
                 a confirmatory laboratory PCR test. These are all key data collection points in the
                 Future State Long COVID patient workflow but do not comprehensively represent how
-                data could flow in an idealized state. The team will continue to incorporate the
-                remaining data collection steps and data groupings from the patient workflow to
-                elucidate how various data storage systems house, transform, and transmit data as
-                well as the enablers needed to improve and standardize the associated data
-                collection. This continued work will be included in a future iteration of this work.
-                While this work currently centers around a Long COVID diagnosis, the themes and
-                insights will be used to inform data aggregation and secondary use for other
-                emerging acute and chronic infectious diseases that will ultimately provide their
-                own feedback and insights to further improve data collection.</para>
+                data could flow in an idealized state. Remaining data will be incorporated in
+                collection steps and data groupings from the patient workflow to elucidate how
+                various data storage systems house, transform, and transmit data as well as the
+                enablers needed to improve and standardize the associated data collection. This
+                continued work will be included in a future iteration of this work. While this work
+                currently centers around a Long COVID diagnosis, the themes and insights will be
+                used to inform data aggregation and secondary use for other emerging acute and
+                chronic infectious diseases that will ultimately provide their own feedback and
+                insights to further improve data collection.</para>
             <para>Advanced analytical capability of monitoring and responding to data trends in real
                 time goes beyond detecting emerging diseases and can extend to fast tracking device
                 and diagnostic tool approvals. Liquid Biopsy (LBx) is a promising new diagnostic
