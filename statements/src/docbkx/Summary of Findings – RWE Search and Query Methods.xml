@@ -5,7 +5,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
      <title>Summary of Findings – RWE Search and Query Methods</title>
     <sect1>
-        <title>Real World Evidence (RWE) Introduction</title>
+        <title>RWE Search and Query Methods Introduction</title>
         <para>Search and query methods are used for information retrieval to access unstructured
             data. Most health information is stored in an electronic health record (EHR), and most
             laboratory data are stored in a laboratory information system (LIS). It is important to
@@ -29,23 +29,23 @@
             sources.</para>
         <para>Organizations like the National COVID Cohort Collaborative (N3C), Sentinel,
             Observational Health Data Sciences and Informatics (OHDSI) and others prove it is
-            possible to develop, support and use real-world data (RWD) at “scale” across the U.S.
-            and internationally in research, public health, and clinical quality improvement.
-            However, the highlighted limitations provide the opportunity to address gaps commonly
-            observed across efforts such as data quality and interoperability and access to timely
-            data, while replicating the successes. </para>
-        <para>A specific, yet generalizable, use case demonstrates the need for real-world evidence
-            (RWE) analytics, identify gaps, and form the basis of requirements necessary to
-            establish a health data ecosystem capable for widespread collective efforts, public
-            health surveillance, research, and care delivery. The long COVID use case describes the
-            need to broadly survey and analyze large data sets. Doing so helps identify and define
-            poorly understood health conditions for which new and/or existing regulated technologies
-            or substances can be evaluated for safety and efficacy. RWD needs to be collected,
-            queried, and evaluated to test and validate the “hypothesis” of the regulatory
-            exercise.</para>
+            possible to develop, support and use RWD at “scale” across the U.S. and internationally
+            in research, public health, and clinical quality improvement. However, the highlighted
+            limitations provide the opportunity to address gaps commonly observed across efforts
+            such as data quality and interoperability and access to timely data, while replicating
+            the successes. </para>
+        <para>A specific, yet generalizable, use case demonstrates the need for RWE analytics,
+            identify gaps, and form the basis of requirements necessary to establish a health data
+            ecosystem capable for widespread collective efforts, public health surveillance,
+            research, and care delivery. The long COVID use case describes the need to broadly
+            survey and analyze large data sets. Doing so helps identify and define poorly understood
+            health conditions for which new and/or existing regulated technologies or substances can
+            be evaluated for safety and efficacy. RWD needs to be collected, queried, and evaluated
+            to test and validate the “hypothesis” of the regulatory exercise.</para>
     </sect1>
     <sect1>
-        <title>Long COVID Use Case: Loosely Defined and/or Poorly Understood Scenarios</title>
+        <title>Importance of RWD for Long Covid and Other Loosely Defined or Poorly Understood
+            Scenarios</title>
         <para>Long COVID is a poorly understood sequela to a COVID infection. In general, it is
             characterized by a wide range of ongoing health symptoms lasting weeks or months
             following a COVID infection, including fatigue, post-exertional malaise, fever,
