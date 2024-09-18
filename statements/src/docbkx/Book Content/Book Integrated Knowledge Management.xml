@@ -14,36 +14,8 @@
             tools, can be aggregated across platforms, analyzed, and utilized. However, the flow of
             data through systems can lead to a myriad of issues including loss of meaning, inability
             to aggregate data, misinterpretation, and more. Achieving coordinated and standardized
-            ways to integrate data across systems is an important tenant of integrated knowledge
+            ways to integrate data across systems is an important tenet of integrated knowledge
             management (IKM). </para>
-        <para>These issues are no different for healthcare and laboratory data. The introduction of
-            the clinical information systems, including electronic health record (EHR) systems and
-            laboratory information systems (LIS), in the 1960’s revolutionized the way an
-            individual’s health data was stored. Health data went from static data recorded in paper
-            records to dynamic, encoded knowledge stored in informational systems and introduced the
-            ability to aggregate and examine these data points to generate new ideas and solve
-            problems. Removing ourselves from the idealized state of full knowledge integration, the
-            current landscape is composed of a range of EHR platforms, LISs, users, standards
-            organizations, and agencies, all of which employ their own methods for collecting,
-            recording, and using healthcare data. The healthcare system’s transformation into a
-            digitalized health information system was quickly adopted but several core high
-            reliability organization (HRO) principles were excluded, including ensuring the system
-            was interoperable, data was of the highest quality, and patient safety was prioritized. </para>
-        <para>Several organizations have emerged to address these issues through industry coding
-            standards and implementation guidance. However, these have fallen short of ensuring high
-            quality data with a common representation or standardization across the healthcare
-            ecosystem. Standards including Systematized Nomenclature of Medicine Clinical Terms®
-            (SNOMED CT®), Logical Observations Identifiers Names and Codes® (LOINC®), National
-            Library of Medicine’s codification of the U.S. pharmacopeia (RxNorm) and others exist to
-            address the variation in healthcare data and resulting inefficiencies by working with
-            terminology, standards, and meaning. Each organization follows a set of rules that
-            govern the standards and add structure. However, even the best-meaning user may
-            interpret the use of standards differently, highlighting the need to move beyond the
-            reliance on standards alone. Additionally, users may be unaware of their
-            misinterpretation of standards during system implementations, configuration, and
-            maintenance due to a lack of adequate feedback mechanisms. The integration of the
-            above-mentioned organizations, users, and standards are important to create an
-            interoperable and high-quality healthcare system. </para>
         <para>Currently, implementers must know how to work with all the existing standards and be
             familiar with their respective rules and formats. Through this body of work, we are
             advancing a reference demonstration of an IKM environment that can be used by various

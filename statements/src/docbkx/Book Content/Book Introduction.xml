@@ -47,7 +47,7 @@
     </section>
     <section>
         <title>Overview of the IKM Book</title>
-        <para>The Integrated Knowledge Management (IKM) Book serve as an educational resource to
+        <para>The Integrated Knowledge Management (IKM) Book serves as an educational resource to
             allow stakeholders to perform a deep dive into the IKM Architecture this team has worked
             to develop. </para>
         <section>
@@ -86,9 +86,7 @@
                 </listitem>
             </itemizedlist>
             <para>The intent of the IKM Book is to have a direct connection to real world events and
-                circumstances. For a granular and detailed breakdown of real world examples, please
-                refer to the forthcoming
-                <?oxy_comment_start author="rgeorgacopoulos" timestamp="20231121T165717-0500" comment="add link to appendix when created "?>Appendix<?oxy_comment_end?>.</para>
+                circumstances. </para>
         </section>
         <section>
             <title>IKM Guiding Principles</title>
@@ -168,20 +166,19 @@
                 system upwards of $30 billion per year. The introduction of industry-wide
                 interoperability could improve upon these expenditures by reducing adverse events,
                 redundant testing, clinician’s time spent on manual data entry, and reducing length
-                of stay, resulting in $1.9 billion, $1.5 billion, $12 billion, and $18 billion in
-                savings, respectively.[4-7] Implementing Integrated Knowledge Management will reduce
-                the challenges associated with unpredictable, poorly controlled, and reactive health
-                IT data. This lack of interoperable data hinders advancements and innovation in the
-                healthcare system, including use of Artificial Intelligence (AI) and Big Data,
-                medical communications, research, and international coordination, as new
-                technologies must rely on suboptimal data and cannot achieve their full potential.
-                [8] The Knowledge Architecture described above will provide the foundation for
-                robust configuration management and quality assurance of health IT data while
-                allowing for a standardized update and extension process. This approach will support
-                increased clinical and laboratory data quality and enable healthcare systems across
-                the industry to conduct robust and meaningful data analysis and increase overall
-                interoperability, which ultimately enhances the quality of care across all medical
-                facilities. </para>
+                of stay, resulting in significant savings.[4-7] Implementing Integrated Knowledge
+                Management will reduce the challenges associated with unpredictable, poorly
+                controlled, and reactive health IT data. This lack of interoperable data hinders
+                advancements and innovation in the healthcare system, including use of Artificial
+                Intelligence (AI) and Big Data, medical communications, research, and international
+                coordination, as new technologies must rely on suboptimal data and cannot achieve
+                their full potential. [8] The Knowledge Architecture described above will provide
+                the foundation for robust configuration management and quality assurance of health
+                IT data while allowing for a standardized update and extension process. This
+                approach will support increased clinical and laboratory data quality and enable
+                healthcare systems across the industry to conduct robust and meaningful data
+                analysis and increase overall interoperability, which ultimately enhances the
+                quality of care across all medical facilities. </para>
             <para>The purpose of employing the Knowledge Architecture and enabling Integrated
                 Knowledge Management can be succinctly described through its benefits: increased
                 interoperability, improved patient outcomes, and meaningful data analysis. These
@@ -204,7 +201,7 @@
                 <title>Improved Patient Outcomes</title>
                 <para>Patient care will be optimized and efficient, enabling clinicians to provide
                     high-quality care to patients across medical facilities that improves patient
-                    outcomes and provider productivity and reduces adverse events and redundant
+                    outcomes and provider productivity, and reduces adverse events and redundant
                     testing. The potential of digital innovation in health care delivery can also
                     contribute to advancing diagnosis and treatment options, facilitating
                     introduction of telemedicine, promoting and supporting self-management, and
@@ -273,7 +270,7 @@
             knowledge in a way that allows for reuse, ongoing development, and independent updates.
             If employed, this model can help the healthcare ecosystem to individually resolve issues
             in their data within their layers, rather than the entire system, leading to much more
-            agile improvement</para><figure xml:id="PASTFModel">
+            agile improvement.</para><figure xml:id="PASTFModel">
                 <title>PASTF Model</title>
                 
                     <mediaobject>

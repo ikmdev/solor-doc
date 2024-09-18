@@ -3,7 +3,7 @@
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-    <title>Summary of Findings – Current State of RWE Analytics</title>
+    <title>Current State of RWE Analytics</title>
     <section>
         <title>Purpose</title>
         <para>In an effort to resolve the challenges posed by data interoperability and unlock the
