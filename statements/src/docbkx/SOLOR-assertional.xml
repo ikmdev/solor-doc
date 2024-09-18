@@ -6,17 +6,17 @@
      <title>Assertional Knowledge</title>
     <section>
         <title>Introduction to Assertional Knowledge</title>
-        <para>Previously, we discussed terminology knowledge which does not represent how concepts
+        <para>Previously, we discussed terminology knowledge, which does not represent how concepts
             influence or relate to each other in a clinical setting. This type of information is
             represented by assertional knowledge. For example, shortness of breath may be caused by
             myocardial infarction. Assertional knowledge represents facts related to a domain of
             study and is used to provide nuance and context to a concept, but does not define it.
             For example, Aspirin is used to treat pain, but it can also be used to treat fevers,
             prevent blood clots, reduce the risk of stroke and heart attack and many other things.
-            The two major goals of including assertional knowledge are (1) to enhance usability and
-            (2) improve documentation quality when using a terminology. Additional facts about
-            clinical concepts can also be provided to support reasoning for automated quality
-            monitoring and clinical decision support. [1]</para>
+            The two major goals of including assertional knowledge are to enhance usability and
+            improve documentation quality when using a terminology. Additional facts about clinical
+            concepts can also be provided to support reasoning for automated quality monitoring and
+            clinical decision support. [1]</para>
         <para>Additionally, assertional knowledge supports interface implementation by providing
             increased synonymy that is specific as to the context in which it should be used. What
             has been previously called interface terminology can be defined as a "systematic
@@ -60,11 +60,11 @@
             terminology.</para>
         <para>In one approach, developers <emphasis role="bold"><emphasis role="underline"
                     >precoordinate</emphasis></emphasis> (or enumerate) all possible complex
-            concepts apriori and essentially create a list of all the complex concepts that can be
-            expressed. A strength of this approach is increasing the chances a user will find a
-            desired concept. Disadvantages include making a terminology so large that search becomes
-            burdensome, and reduced flexibility in situations where the terminology does not contain
-            concepts that a user may need. </para>
+            concepts <emphasis>a priori </emphasis>and essentially create a list of all the complex
+            concepts that can be expressed. A strength of this approach is increasing the chances a
+            user will find a desired concept. Disadvantages include making a terminology so large
+            that search becomes burdensome, and reduced flexibility in situations where the
+            terminology does not contain concepts that a user may need. </para>
         <para>An alternative is <emphasis role="bold"><emphasis role="underline"
                     >postcoordination</emphasis></emphasis> in which users compose complex concepts
             by assembling general concepts and modifiers as needed. An advantage is increased
@@ -148,11 +148,9 @@
                         </imageobject>
                     </mediaobject>
                 </figure>
-        </section>
-        <section>
-            <title>Relationships Between Clinical Concepts and Patient Populations</title>
-            <para>An example of a relationship between a clinical concept and patient population is
-                pregnancy is not present in men or women who have had a hysterectomy or who are
+            <para>Concepts can also have relationships with patient populations. An example of a
+                relationship between a clinical concept and patient population is pregnancy is not
+                present in men or women who have had a hysterectomy or who are
                 post-menopausal.</para>
         </section>
     </section>

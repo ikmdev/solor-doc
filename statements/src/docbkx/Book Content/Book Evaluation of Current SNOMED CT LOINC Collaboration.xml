@@ -32,15 +32,26 @@
                 the ability to provide feedback and sign up to receive project updates. [2]</para>
             <para>Regarding Knowledge Management, our analysis will be focused on the systems and
                 services provided by the LOINC® and SNOMED CT® Interoperability Solution as
-                described on their website. [3] The analysis of the user interface / user experience
-                will be discussed in section <emphasis role="bold">UI/UX: SNOMED LOINC®
-                    Collaborative Agreement Demonstration Project Progress Reports</emphasis> and
-                analysis of the data representation implications are expanded on in section<emphasis
-                    role="bold">Knowledge Representation: SNOMED LOINC® Collaborative Agreement
-                    Demonstration Project Progress Reports</emphasis>. Further details regarding the
-                communications to the community is discussed in section <emphasis role="bold"
-                    >Ecosystem Engagement: SNOMED LOINC® Collaborative Agreement Demonstration
-                    Project Progress Reports </emphasis>.</para>
+                described on their website. [3] <itemizedlist>
+                    <listitem>
+                        <para>The analysis of the user interface / user experience (UI/UX) will be
+                            discussed in section <emphasis role="bold">UI/UX: SNOMED LOINC®
+                                Collaborative Agreement Demonstration Project Progress
+                                Reports</emphasis></para>
+                    </listitem>
+                    <listitem>
+                        <para>Analysis of the data representation implications are expanded on in
+                                section<emphasis role="bold">Knowledge Representation: SNOMED LOINC®
+                                Collaborative Agreement Demonstration Project Progress
+                                Reports</emphasis></para>
+                    </listitem>
+                    <listitem>
+                        <para>Further details regarding the communications to the community is
+                            discussed in section <emphasis role="bold">Ecosystem Engagement: SNOMED
+                                LOINC® Collaborative Agreement Demonstration Project Progress
+                                Reports </emphasis>.</para>
+                    </listitem>
+                </itemizedlist></para>
             <section>
                 <title>Hearing from the Community</title>
                 <para>The LOINC® and SNOMED CT® Interoperability Solution encourages the community
@@ -94,8 +105,8 @@
             </section>
         </section>
         <section>
-            <title>UI/UX: SNOMED LOINC® Collaborative Agreement Demonstration Project Progress
-                Reports </title>
+            <title>User Interface/User Experience (UI/UX): SNOMED LOINC® Collaborative Agreement
+                Demonstration Project Progress Reports </title>
             <para>Through their collaborative agreement, LOINC® and SNOMED CT® have developed the
                 LOINC® Ontology SNOMED CT® Browser, which allows users to navigate concepts, view
                 concept details, and determine equivalency between LOINC® and SNOMED CT® concepts.
@@ -234,7 +245,9 @@
                         </imageobject>
                     </mediaobject>
                 </figure>
-                <para>To enhance the existing system, there should be a more complete record for concepts, including the ability to view how they have changed over time. An example of how this could be done in an integrated knowledge management system is shown below.</para>
+                <para>To enhance the existing system, there should be a more complete record for
+                    concepts, including the ability to view how they have changed over time. An
+                    example of how this could be done in an IKM system is shown below.</para>
                 <figure xml:id="ExampleofHypotheticalConceptsVersioningRecord">
                     <title>Example of Hypothetical Concepts Versioning Record</title>
                     <mediaobject>

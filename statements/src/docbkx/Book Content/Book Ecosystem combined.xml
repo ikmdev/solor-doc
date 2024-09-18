@@ -17,7 +17,7 @@
             ability of a diverse group, often leading to more accurate outcomes than individual
             decisions. In healthcare, this concept has been applied in various ways, from diagnosing
             rare diseases through crowdsourcing to improving clinical care by harnessing structured
-            information-sharing networks among physicians. [1] [2] The collective insight of
+            information-sharing networks among physicians. [1, 2] The collective insight of
             healthcare professionals, patients, and the public can significantly enhance diagnostic
             accuracy, treatment plans, and healthcare innovation.</para>
         <para>This section explores one of the latest healthcare Information Technology (IT) trends
@@ -166,8 +166,8 @@
             </listitem>
         </orderedlist>
         <para>By clearly defining areas that need improvement, our team will be able to focus the
-            Wisdom of Crowds to support improvements in the areas identified for development. Below
-            are a few examples of innovative approaches in healthcare knowledge management and
+            Wisdom of Crowds to support improvements in areas identified for development. Below are
+            a few examples of innovative approaches in healthcare knowledge management and
             decision-making.</para>
         <para><emphasis role="bold">Enhancing IKM with Crowdsourced Insights</emphasis>: The
             integration of crowdsourced insights into IKM systems can significantly enhance
@@ -176,13 +176,12 @@
             public contributions into the information extraction process. [6] This approach can be
             extended to other areas in healthcare, where public input can provide valuable insights
             and fill gaps in existing knowledge.</para>
-        <para><emphasis role="bold">Case Study: OC-2-KB System</emphasis>: The Obesity and Cancer to
-            Knowledge Base (OC-2-KB) system is an example of integrating crowdsourcing into
-            healthcare knowledge management. This system uses natural language processing and
-            machine learning techniques to extract semantic triples from PubMed abstracts related to
-            obesity and cancer. Crowdsourcing is then employed to refine the extracted facts,
-            enhancing the quality and reliability of the information in the knowledge base.
-            [6]</para>
+        <para><emphasis role="bold">OC-2-KB System</emphasis>: The Obesity and Cancer to Knowledge
+            Base (OC-2-KB) system is an example of integrating crowdsourcing into healthcare
+            knowledge management. This system uses natural language processing and machine learning
+            techniques to extract semantic triples from PubMed abstracts related to obesity and
+            cancer. Crowdsourcing is then employed to refine the extracted facts, enhancing the
+            quality and reliability of the information in the knowledge base. [6]</para>
         <para><emphasis role="bold">Tinkar Enhanced by Real-Time, Crowdsourced Healthcare
                 Data</emphasis>: Tinkar's role in standardizing healthcare terminology can be
             augmented by incorporating real-time, crowdsourced healthcare data. This approach can
@@ -218,16 +217,16 @@
             other efforts in this space. The following recommendations will support any healthcare
             organizations with a strong interest in obtaining high-quality contributions through
             crowdsourcing. </para>
-        <para>1.<emphasis role="bold"> Develop robust frameworks</emphasis>. Robust frameworks must
+        <para>1.<emphasis role="bold"> Develop robust frameworks</emphasis>: Robust frameworks must
             effectively leverage collective intelligence for gathering, integrating, and analyzing
             crowd sourced information in order to maintain the accuracy and reliability of obtained
             information from the public. </para>
-        <para><emphasis role="bold">2. Keep ethical considerations and privacy
-                concerns</emphasis><emphasis role="bold">. </emphasis>As addressed in other volumes,
-            while crowdsourcing offers unique advantages, a simultaneous priority must be to protect
-            patient data and ensure ethical use of crowdsourced information. </para>
+        <para><emphasis role="bold">2. Keep ethical considerations and privacy concerns</emphasis>:
+            As addressed in other volumes, while crowdsourcing offers unique advantages, a
+            simultaneous priority must be to protect patient data and ensure ethical use of
+            crowdsourced information. </para>
         <para><emphasis role="bold">3. Encourage any opportunity of global exchange or collaboration
-                for crowdsourcing. </emphasis>The future of healthcare is one step closer to being
+                for crowdsourcing</emphasis>: The future of healthcare is one step closer to being
             brought together by emerging technologies including AI and blockchain. </para>
     </section>
     <section>
@@ -235,31 +234,31 @@
         <para>Although crowdsourcing is effective at gathering ideas and generating solutions,
             challenges remain when implementing this open collaboration system in the healthcare
             ecosystem.</para>
-        <section><title>Challenges in Implementing Crowdsourcing in Healthcare:</title>
+        
             <orderedlist>
                 <listitem>
                     <para><emphasis role="bold">Data Quality and Reliability</emphasis>: Ensuring
-                        the accuracy and reliability of crowdsourced data is a significant
-                        challenge. There is a risk of misinformation and variability in data quality
-                        due to the diverse sources of information. [7]</para>
+                    the accuracy and reliability of crowdsourced data is a significant challenge.
+                    There is a risk of misinformation and variability in data quality due to the
+                    diverse sources of information.</para>
                 </listitem>
                 <listitem>
                 <para><emphasis role="bold">Integration with Existing Systems</emphasis>:
-                        Integrating crowdsourced data with existing healthcare IT systems like IKM
-                        and Tinkar can be complex. This involves aligning different data formats,
-                        terminologies, and ensuring seamless data flow. [7]</para>
+                    Integrating crowdsourced data with existing healthcare IT systems like IKM and
+                    Tinkar can be complex. This involves aligning different data formats,
+                    terminologies, and ensuring seamless data flow.</para>
                 </listitem>
                 <listitem>
                 <para><emphasis role="bold">Privacy and Security Concerns</emphasis>: Protecting
-                        patient confidentiality and data security is paramount. Crowdsourced data
-                        can include sensitive health information, which requires robust security
-                        measures to prevent unauthorized access. [7]</para>
+                    patient confidentiality and data security is paramount. Crowdsourced data can
+                    include sensitive health information, which requires robust security measures to
+                    prevent unauthorized access.</para>
                 </listitem>
                 <listitem>
                 <para><emphasis role="bold">Stakeholder Engagement and Buy-In</emphasis>: Gaining
-                        the support and trust of healthcare professionals, patients, and other
-                        stakeholders is crucial. There might be resistance to adopting new methods
-                        of data collection and integration. [7]</para>
+                    the support and trust of healthcare professionals, patients, and other
+                    stakeholders is crucial. There might be resistance to adopting new methods of
+                    data collection and integration.</para>
                 </listitem>
                 <listitem>
                 <para><emphasis role="bold">Resource Allocation</emphasis>: Implementing
@@ -268,39 +267,38 @@
                         effective implementation of these initiatives. [7]</para>
                 </listitem>
             </orderedlist>
-            <para>The following potential solutions and strategies could address or minimize the
-                impact of these challenges.</para>
-        </section>
         <section>
             <title>Potential Solutions and Strategies</title>
+            <para>The following potential solutions and strategies could address or minimize the
+                impact of these challenges.</para>
             <para>
                 <orderedlist>
                     <listitem>
                         <para><emphasis role="bold">Establishing Data Quality Standards</emphasis>:
                             Implementing strict data quality standards and validation processes can
                             help ensure the reliability of crowdsourced data. This includes regular
-                            audits and feedback mechanisms. [7]</para>
+                            audits and feedback mechanisms.</para>
                     </listitem>
                     <listitem>
                         <para><emphasis role="bold">Developing Interoperable Systems</emphasis>:
                             Creating interoperable systems that can seamlessly integrate
                             crowdsourced data with existing healthcare IT infrastructures is
-                            essential. This involves using standardized data formats and protocols.
-                            [7]</para>
+                            essential. This involves using standardized data formats and
+                            protocols.</para>
                     </listitem>
                     <listitem>
                         <para><emphasis role="bold">Enhancing Privacy and Security
                                 Measures</emphasis>: Implementing robust privacy and security
                             measures, such as encryption and access controls, can protect sensitive
                             health data. Regular security audits and compliance with regulatory
-                            standards are also important. [7]</para>
+                            standards are also important.</para>
                     </listitem>
                     <listitem>
                         <para><emphasis role="bold">Stakeholder Engagement Programs</emphasis>:
                             Developing programs to engage and educate stakeholders about the
                             benefits and processes of crowdsourcing can foster trust and support.
-                            This includes training programs, workshops, and communication campaigns.
-                            [7]</para>
+                            This includes training programs, workshops, and communication
+                            campaigns.</para>
                     </listitem>
                     <listitem>
                         <para><emphasis role="bold">Resource Optimization</emphasis>: Efficiently

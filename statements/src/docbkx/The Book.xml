@@ -89,36 +89,45 @@
     <part>
         <title>Ecosystem</title>
         <xi:include href="Book%20Content/Book%20Ecosystem%20combined.xml"/>
-        <xi:include href="Book%20Content/Book%20Summary%20of%20Findings%20-%20Managing%20the%20Best%20Practice%20for%20Open-Source%20Communities.xml"/>
-        <xi:include href="Book%20Content/Book%20Evaluation%20of%20Current%20SNOMED%20CT%20LOINC%20Collaboration.xml"/>
+        <xi:include
+            href="Book%20Content/Book%20Summary%20of%20Findings%20-%20Managing%20the%20Best%20Practice%20for%20Open-Source%20Communities.xml"/>
+        <xi:include
+            href="Book%20Content/Book%20Evaluation%20of%20Current%20SNOMED%20CT%20LOINC%20Collaboration.xml"/>
         <xi:include href="Book%20Content/Book%204.1.1.xml"/>
     </part>
     <part>
-        <title><?oxy_comment_start author="rgeorgacopoulos" timestamp="20240715T101026-0500" comment="add transition sentence about exploring current stae km solutions and current state environment, best practices, lessons learned and more from other efforts"?>Komet<?oxy_comment_end?></title>
-        
+        <title><?oxy_comment_start author="rgeorgacopoulos" timestamp="20240715T101026-0500" comment="add transition sentence about exploring current stae km solutions and current state environment, best practices, lessons learned and more from other efforts"?>Knowledge
+            Management <?oxy_comment_end?>Environment (Komet)</title>
         <xi:include
-            href="Book%20Content/Book%20Framework%20Considerations%20for%20Knowledge%20Management%20(KM)%201.2.3.xml"
-            ></xi:include>
+            href="Book%20Content/Book%20Framework%20Considerations%20for%20Knowledge%20Management%20(KM)%201.2.3.xml"/>
         <xi:include
             href="Book%20Content/Book%20Playbook%20of%20Current%20Knowledge%20Management%20Technologies,%20Industry%20Coding%20Standards,%20and%20Knowledge%20Management%20Hosting%20Options.xml"
             ><?oxy_comment_end?></xi:include>
-        <xi:include href="Book%20Content/Book%20Summary%20of%20Findings%20%E2%80%93%20Functional%20and%20Non-Functional%20Issues%20Related%20to%20Knowledge%20Management%20Proof%20of%20Concept.xml"></xi:include>
+        <xi:include
+            href="Book%20Content/Book%20Summary%20of%20Findings%20%E2%80%93%20Functional%20and%20Non-Functional%20Issues%20Related%20to%20Knowledge%20Management%20Proof%20of%20Concept.xml"/>
         <xi:include href="Komet-User-Guide.xml"/>
     </part>
     <part>
         <title>Use Cases and Summary of Findings</title>
         <xi:include href="Use-Case-Chapter.xml"/>
-        <xi:include href="roundtrip-usecase.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Summary%20of%20Findings%20%E2%80%93%20RWE%20Search%20and%20Query%20Methods.xml"/>
+        
+        <xi:include
+            href="Summary%20of%20Findings%20%E2%80%93%20RWE%20Search%20and%20Query%20Methods.xml"/>
     </part>
     <part>
         <title>Real World Applications</title>
         <xi:include href="Patient%20Data%20Privacy.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Book%20Content/Book%20Healthcare%20Data%20Management.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Book%20Content/Book%20Healthcare%20Quality%20Improvement.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Book%20Content/Book%20Global%20Health%20and%20International%20Collaboration.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Book%20Content/Book%20Emergency%20Preparedness.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
-        <xi:include href="Book%20Content/Book%20ROI.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="Book%20Content/Book%20Healthcare%20Data%20Management.xml"
+            xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="Book%20Content/Book%20Healthcare%20Quality%20Improvement.xml"
+            xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include
+            href="Book%20Content/Book%20Global%20Health%20and%20International%20Collaboration.xml"
+            xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="Book%20Content/Book%20Emergency%20Preparedness.xml"
+            xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <xi:include href="Book%20Content/Book%20ROI.xml" xmlns:xi="http://www.w3.org/2001/XInclude"
+        />
     </part>
     <part>
         <xi:include href="Volume%20Appendix.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>

@@ -130,7 +130,7 @@ If you want to include original phrasing please use &quot;In collaboration with 
                 Control Structure </title>
             <mediaobject>
                 <imageobject>
-                    <imagedata fileref="../images/DraftInsetModeloftheEncodingforDataFlowintheLaboratoryEcosystemControlStructure.svg" align="center" scale="15"/>
+                    <imagedata fileref="../images/DraftInsetModeloftheEncodingforDataFlowintheLaboratoryEcosystemControlStructure.svg" align="center" scale="40"/>
                 </imageobject>
             </mediaobject>
         </figure>
@@ -143,150 +143,184 @@ If you want to include original phrasing please use &quot;In collaboration with 
             the safety assessment analysis in identifying unsafe control actions and loss scenarios
             related to the standards development, implementation, and maintenance processes in
             laboratories, devices, and standards. </para>
-        <para><emphasis role="bold">Laboratories must document a comprehensive list of tests that
-                they perform.</emphasis> Laboratories maintain a comprehensive test menu (also
-            referred to ask a test catalog or laboratory test compendiums). These test menus contain
-            the list of all tests performed by a particular lab and tests that are offered to
-            consumers. The test menus are often delineated to include a list of tests that a
-            particular analytical instrument is capable of performing. There are many details about
-            tests that are important for laboratorians to understand and represent in test menus.
-            These details are not limited to the following: name of the test, the component (or
-            analyte) being measured, the specimen type, the property being measured, the timing of
-            the measurement, the system (usually sample type for laboratory measurements), the scale
-            of measurement, the method used to produce the observation, rejection and acceptance
-            criteria, type of instrument used, specific make and model of instrument or kit used,
-            testing priority, performing site, interpretation criteria, the individual responsible
-            for interpretation, related diagnosis and other additional contextual information. </para>
-        <para>Of these data elements, the name of each test is of particular importance because the
-            name of the test is typically displayed in user interfaces and electronic messages and
-            reports. Consequently, many of the contextual details listed above are reduced to and
-            obfuscated by only being represented by the name of each test alone. </para>
-        <para>The name of every test can be stored in laboratory information systems using local,
-            institution-specific naming conventions. Ideally, laboratories can use a textual
-            description with an unlimited number of characters to accurately describe each
-            laboratory order and result. However, this can result in challenges due to field space
-            restrictions and character limits of databases in the information system. Alternatively,
-            “short names” may be pragmatically implemented to limit the characters allowed in
-            textual names/descriptions of tests but can be complex with abbreviations that result in
-            descriptions that are very difficult to interpret (e.g., albumin ser-plr fld-MCDiff,
-            which refers to the mass concentration difference in grams per liter of albumin in serum
-            and pleural fluid). [2] Rather than only having textual descriptions, laboratory
-            information systems also use unique local identifiers (i.e., codes) to identify and
-            store tests and results. </para>
-        <para><emphasis role="bold">Laboratories are expected and, in many cases, required by the
-                government to share data with public health institutions, medical centers, and
-                disease registries to support population-based care, precision medicine,
-            </emphasis>and research. </para>
-        <para>Laboratories must be able to receive information about orders for tests and ensure
-            that they are performing the equivalent test. Additionally, laboratories must be able to
-            send information about tests performed and associated results and ensure they are
-            sending results for the correct test that was ordered. However, use of local
-            institution-specific names and local codes in LISs results in difficulty with
-            interpreting the data and identifying equivalence between tests and results without a
-            precise mapping to a common, universal terminology. </para>
-        <para>Therefore, industry coding standards have been developed and required for use to
-            standardize the codes and terms embedded in data exchange messages. Federal agencies,
-            such as Center for Medicaid and Medicare Services (CMS) and Office of the National
-            Coordinator for Health Information Technology (ONC), have worked in close coordination
-            to define requirements in a joint effort to promote interoperability. The Health
-            Information Technology for Economic and Clinical Health (HITECH) Act of 2009 grants ONC
-            the authority to establish programs to promote the adoption of health technologies such
-            as electronic health records and secure data exchange. Additional laws, like the ONC
-            21st Century Cures Act and CMS Interoperability and Patient Access Rule, and agreements,
-            like ONC's version 2.0 of the Trusted Exchange Framework and Common Agreement (TEFCA),
-            identify specific standards (as shown in HL7’s FHIR Release 4.0.1) to be adopted by
-            industry. Many of these regulations are required for use in hospitals, but non-hospital
-            laboratories are not as strictly required to adhere to the use of industry coding
-            standards. </para>
-        <para>The adoption of standards like LOINC® aid in distinguishing laboratory data among
-            disparate health systems. However, reliance on standard laboratory test names alone does
-            not go far enough in realizing the benefit of interoperability or minimizing loss
-            scenarios. </para>
-        <para><emphasis role="bold">Laboratories should reproducibly encode their test data using
-                industry coding standards and assignment of standard codes should be subjected to a
-                defined process across the code lifecycle. </emphasis></para>
-        <para>Laboratories assign LOINC® codes to the local laboratory tests contained in their test
-            menu. The LOINC® codes need to be mapped in the test definition dictionaries in the LIS.
-            Typically, each laboratory makes its own decisions regarding assignment of LOINC® codes.
-            If different teams are defining LOINC® codes for the LIS and the EHR, or using and
-            storing codes outside of the EHR, there may be discrepancies even within the same
-            institution. [2] </para>
-        <para><emphasis role="bold">Laboratories need to understand and be aware of the subtleties
-                and pitfalls of test code selection that greatly impact the ability to map codes
-                accurately to local test code compendiums.</emphasis>
-        </para>
-        <para>For the best practice, a laboratory professional well-versed in LOINC® from the
-            laboratory that is performing the testing should select the optimal LOINC® test order
-            and result codes, as this person best knows the nuances of how the testing is performed.
-            Downstream or upstream individuals often do not have the complete test details available
-            to them, particularly with regards to testing performed at reference laboratories. In
-            addition, nonlaboratory physicians and technical team members typically do not have
-            adequate information to choose the optimal LOINC® codes correctly (unless the codes are
-            provided by the performing laboratory). From a safety systems perspective, this is
-            potentially a weak control that solely depends on a human controller to prevent loss
-            scenarios and potential harms. </para>
-        <para>Laboratory personnel responsible for mapping a laboratory’s local test compendium to
-            LOINC® codes often do not possess adequate understanding or expertise for LOINC®,
-            available full encoding options, and nuances between similar codes. For this reason,
-            among others, the task of mapping a local test compendium to LOINC® is frequently
-            delegated to information technology staff who, too, are inadequately trained in
-            laboratory data standards and the implementation. [2] Electronic Health Record vendors
-            and their staff interface engineers to build and test HL7 interfaces alongside lab
-            personnel. However, the level of coordination between lab personnel and interface
-            engineers varies from case to case. During interface testing for laboratory interfaces,
-            the most common system errors result from incorrect LOINC® encodings within the
-            Observation Request (OBR) and Observation Result (OBX) segments of an HL7 Version 2
-            transaction. The errors are most commonly addressed by information technology staff who
-            in some cases prioritize time and effort over accurate, precise data mappings which can
-            lead to poor due diligence and downstream loss scenarios. Similar process-shortcomings
-            can apply to additional laboratory data elements which demand a certain level of domain
-            expertise, like units of measure and specimen type. </para>
-        <para>Despite having mapped their unique laboratory tests to LOINC®, laboratories may still
-            need to rely on creating their own internal names and codes for test results. For
-            example, laboratories may need to use a test code to distinguish glucose measurements
-            performed in a core laboratory from those in their satellite facilities. [2] However,
-            all these individual test codes will still need to be mapped to the appropriate, but
-            identical, LOINC® code. Changes to LOINC® codes create challenges for maintenance in
-            LISs, EHRs, and other systems, particularly when the LOINC® code changes for a test that
-            has already been mapped. </para>
-        <para><emphasis role="bold">Laboratories need to maintain code sets and mappings over time,
-                which is an error-prone and manual, laborious process. </emphasis></para>
-        <para>Requests for new codes can be made to Regenstrief Institute, the curator of the LOINC®
-            database, through a simple process, and updates to LOINC® are made biannually. </para>
-        <para>The LIS laboratory test definitions and dictionaries are dynamic and frequently
-            changing, thus requiring a formal process for ensuring uniformity of coding among
-            different instruments or methods and, if applicable, the capacity to accommodate
-            different codes that are correctly applied depending on the specific methodology used
-            for that particular result. There should also be a formal audit process and maintenance
-            to keep up with the changes that occur with each LOINC® release to ensure the accuracy
-            and appropriateness of previous code selection as the database continues to mature. [2] </para>
-        <para>LOINC’s® limitations are poorly understood outside of the laboratory domain, reducing
-            the potential utility for it. Critics of LOINC® will point out the laborious process for
-            assigning the most correct code to each laboratory test offered, and that in practice,
-            LOINC® codes are not uniformly assigned across laboratories. The complexities require a
-            certain level of domain-expertise to understand two tests that may have the same
-            correctly assigned LOINC® code may not necessarily have equivalence to allow for
-            interoperability of their result data. </para>
-        <para>Ideally, scripting and other automated methods must be developed to facilitate the
-            task of assigning standard codes to local tests. </para>
-        <para><emphasis role="bold">IVD Manufacturers </emphasis></para>
-        <para>The production of IVDs requires the assignment of the appropriate LOINC® code(s) for
-            the specific tests which a given device can perform. LOINC® codes are typically in a
-            manufacturer’s package insert, as well as their database. If an appropriate LOINC® code
-            does not exist for a lab test, a manufacturer may submit a request to Regenstrief
-            Institute to create a new LOINC® code. </para>
-        <para>Many laboratory instrument and reagent vendors that are aware of the immense
-            challenges associated with interoperability have begun to include LOINC® definitions in
-            their package inserts. Such package inserts have become a logical source to provide
-            information that can help laboratories map tests with an appropriate LOINC® code because
-            these vendors are well equipped to identify the appropriate LOINC® code for their
-            specific laboratory test. Moreover, for the introduction of novel laboratory test
-            technology, IVD vendors are the logical respondent to new LOINC® code requests. </para>
-        <para>The LOINC® to Vendor IVD specification provides LOINC® maps to IVD test results and
-            includes the following important data attributes: the manufacturer, instrument model,
-            unique device identifier, vendor transmission code, vendor specimen description, vendor
-            result description, and test name. Optional data elements are also included to be
-            helpful for laboratory professionals' mapping to LOINC®. </para>
+        <orderedlist>
+            <listitem>
+                <para><emphasis role="bold">Laboratories must document a comprehensive list of tests
+                        that they perform.</emphasis> Laboratories maintain a comprehensive test
+                    menu (also referred to ask a test catalog or laboratory test compendiums). These
+                    test menus contain the list of all tests performed by a particular lab and tests
+                    that are offered to consumers. The test menus are often delineated to include a
+                    list of tests that a particular analytical instrument is capable of performing.
+                    There are many details about tests that are important for laboratorians to
+                    understand and represent in test menus. These details are not limited to the
+                    following: name of the test, the component (or analyte) being measured, the
+                    specimen type, the property being measured, the timing of the measurement, the
+                    system (usually sample type for laboratory measurements), the scale of
+                    measurement, the method used to produce the observation, rejection and
+                    acceptance criteria, type of instrument used, specific make and model of
+                    instrument or kit used, testing priority, performing site, interpretation
+                    criteria, the individual responsible for interpretation, related diagnosis and
+                    other additional contextual information. </para>
+                <para>Of these data elements, the name of each test is of particular importance
+                    because the name of the test is typically displayed in user interfaces and
+                    electronic messages and reports. Consequently, many of the contextual details
+                    listed above are reduced to and obfuscated by only being represented by the name
+                    of each test alone. </para>
+                <para>The name of every test can be stored in laboratory information systems using
+                    local, institution-specific naming conventions. Ideally, laboratories can use a
+                    textual description with an unlimited number of characters to accurately
+                    describe each laboratory order and result. However, this can result in
+                    challenges due to field space restrictions and character limits of databases in
+                    the information system. Alternatively, “short names” may be pragmatically
+                    implemented to limit the characters allowed in textual names/descriptions of
+                    tests but can be complex with abbreviations that result in descriptions that are
+                    very difficult to interpret (e.g., albumin ser-plr fld-MCDiff, which refers to
+                    the mass concentration difference in grams per liter of albumin in serum and
+                    pleural fluid). [2] Rather than only having textual descriptions, laboratory
+                    information systems also use unique local identifiers (i.e., codes) to identify
+                    and store tests and results. </para>
+            </listitem>
+        
+            <listitem>
+                <para><emphasis role="bold">Laboratories are expected and, in many cases, required
+                        by the government to share data with public health institutions, medical
+                        centers, and disease registries to support population-based care, precision
+                        medicine, </emphasis>and research. </para>
+                <para>Laboratories must be able to receive information about orders for tests and
+                    ensure that they are performing the equivalent test. Additionally, laboratories
+                    must be able to send information about tests performed and associated results
+                    and ensure they are sending results for the correct test that was ordered.
+                    However, use of local institution-specific names and local codes in LISs results
+                    in difficulty with interpreting the data and identifying equivalence between
+                    tests and results without a precise mapping to a common, universal terminology. </para>
+                <para>Therefore, industry coding standards have been developed and required for use
+                    to standardize the codes and terms embedded in data exchange messages. Federal
+                    agencies, such as Center for Medicaid and Medicare Services (CMS) and Office of
+                    the National Coordinator for Health Information Technology (ONC), have worked in
+                    close coordination to define requirements in a joint effort to promote
+                    interoperability. The Health Information Technology for Economic and Clinical
+                    Health (HITECH) Act of 2009 grants ONC the authority to establish programs to
+                    promote the adoption of health technologies such as electronic health records
+                    and secure data exchange. Additional laws, like the ONC 21st Century Cures Act
+                    and CMS Interoperability and Patient Access Rule, and agreements, like ONC's
+                    version 2.0 of the Trusted Exchange Framework and Common Agreement (TEFCA),
+                    identify specific standards (as shown in HL7’s FHIR Release 4.0.1) to be adopted
+                    by the industry. Many of these regulations are required for use in hospitals,
+                    but non-hospital laboratories are not as strictly required to adhere to the use
+                    of industry coding standards. </para>
+                <para>The adoption of standards like LOINC® aid in distinguishing laboratory data
+                    among disparate health systems. However, reliance on standard laboratory test
+                    names alone does not go far enough in realizing the benefit of interoperability
+                    or minimizing loss scenarios. </para>
+            </listitem>
+  
+            <listitem>
+                <para><emphasis role="bold">Laboratories should reproducibly encode their test data
+                        using industry coding standards and assignment of standard codes should be
+                        subjected to a defined process across the code lifecycle. </emphasis></para>
+                <para>Laboratories assign LOINC® codes to the local laboratory tests contained in
+                    their test menu. The LOINC® codes need to be mapped in the test definition
+                    dictionaries in the LIS. Typically, each laboratory makes its own decisions
+                    regarding assignment of LOINC® codes. If different teams are defining LOINC®
+                    codes for the LIS and the EHR, or using and storing codes outside of the EHR,
+                    there may be discrepancies even within the same institution. [2] </para>
+            </listitem>
+      
+            <listitem>
+                <para><emphasis role="bold">Laboratories need to understand and be aware of the
+                        subtleties and pitfalls of test code selection that greatly impact the
+                        ability to map codes accurately to local test code compendiums.</emphasis>
+                </para>
+                <para>For the best practice, a laboratory professional well-versed in LOINC® from
+                    the laboratory that is performing the testing should select the optimal LOINC®
+                    test order and result codes, as this person best knows the nuances of how the
+                    testing is performed. Downstream or upstream individuals often do not have the
+                    complete test details available to them, particularly with regards to testing
+                    performed at reference laboratories. In addition, nonlaboratory physicians and
+                    technical team members typically do not have adequate information to choose the
+                    optimal LOINC® codes correctly (unless the codes are provided by the performing
+                    laboratory). From a safety systems perspective, this is potentially a weak
+                    control that solely depends on a human controller to prevent loss scenarios and
+                    potential harms. </para>
+                <para>Laboratory personnel responsible for mapping a laboratory’s local test
+                    compendium to LOINC® codes often do not possess adequate understanding or
+                    expertise for LOINC®, available full encoding options, and nuances between
+                    similar codes. For this reason, among others, the task of mapping a local test
+                    compendium to LOINC® is frequently delegated to information technology staff
+                    who, too, are inadequately trained in laboratory data standards and the
+                    implementation. [2] Electronic Health Record vendors and their staff interface
+                    engineers to build and test HL7 interfaces alongside lab personnel. However, the
+                    level of coordination between lab personnel and interface engineers varies from
+                    case to case. During interface testing for laboratory interfaces, the most
+                    common system errors result from incorrect LOINC® encodings within the
+                    Observation Request (OBR) and Observation Result (OBX) segments of an HL7
+                    Version 2 transaction. The errors are most commonly addressed by information
+                    technology staff who in some cases prioritize time and effort over accurate,
+                    precise data mappings which can lead to poor due diligence and downstream loss
+                    scenarios. Similar process-shortcomings can apply to additional laboratory data
+                    elements which demand a certain level of domain expertise, like units of measure
+                    and specimen type. </para>
+                <para>Despite having mapped their unique laboratory tests to LOINC®, laboratories
+                    may still need to rely on creating their own internal names and codes for test
+                    results. For example, laboratories may need to use a test code to distinguish
+                    glucose measurements performed in a core laboratory from those in their
+                    satellite facilities. [2] However, all these individual test codes will still
+                    need to be mapped to the appropriate, but identical, LOINC® code. Changes to
+                    LOINC® codes create challenges for maintenance in LISs, EHRs, and other systems,
+                    particularly when the LOINC® code changes for a test that has already been
+                    mapped. </para>
+            </listitem>
+      
+            <listitem>
+                <para><emphasis role="bold">Laboratories need to maintain code sets and mappings
+                        over time, which is an error-prone and manual, laborious process.
+                    </emphasis></para>
+                <para>Requests for new codes can be made to Regenstrief Institute, the curator of
+                    the LOINC® database, through a simple process, and updates to LOINC® are made
+                    biannually. </para>
+                <para>The LIS laboratory test definitions and dictionaries are dynamic and
+                    frequently changing, thus requiring a formal process for ensuring uniformity of
+                    coding among different instruments or methods and, if applicable, the capacity
+                    to accommodate different codes that are correctly applied depending on the
+                    specific methodology used for that particular result. There should also be a
+                    formal audit process and maintenance to keep up with the changes that occur with
+                    each LOINC® release to ensure the accuracy and appropriateness of previous code
+                    selection as the database continues to mature. [2] </para>
+                <para>LOINC’s® limitations are poorly understood outside of the laboratory domain,
+                    reducing the potential utility for it. Critics of LOINC® will point out the
+                    laborious process for assigning the most correct code to each laboratory test
+                    offered, and that in practice, LOINC® codes are not uniformly assigned across
+                    laboratories. The complexities require a certain level of domain-expertise to
+                    understand two tests that may have the same correctly assigned LOINC® code may
+                    not necessarily have equivalence to allow for interoperability of their result
+                    data. </para>
+                <para>Ideally, scripting and other automated methods must be developed to facilitate
+                    the task of assigning standard codes to local tests. </para>
+            </listitem>
+            <listitem>
+                <para><emphasis role="bold">IVD Manufacturers must assign the appropriate LOINC®
+                        code(s) for the specific tests which a given device can perform.
+                    </emphasis></para>
+                <para>LOINC® codes are typically in a manufacturer’s package insert, as well as
+                    their database. If an appropriate LOINC® code does not exist for a lab test, a
+                    manufacturer may submit a request to Regenstrief Institute to create a new
+                    LOINC® code. </para>
+                <para>Many laboratory instrument and reagent vendors that are aware of the immense
+                    challenges associated with interoperability have begun to include LOINC®
+                    definitions in their package inserts. Such package inserts have become a logical
+                    source to provide information that can help laboratories map tests with an
+                    appropriate LOINC® code because these vendors are well equipped to identify the
+                    appropriate LOINC® code for their specific laboratory test. Moreover, for the
+                    introduction of novel laboratory test technology, IVD vendors are the logical
+                    respondent to new LOINC® code requests. </para>
+                <para>The LOINC® to Vendor IVD specification provides LOINC® maps to IVD test
+                    results and includes the following important data attributes: the manufacturer,
+                    instrument model, unique device identifier, vendor transmission code, vendor
+                    specimen description, vendor result description, and test name. Optional data
+                    elements are also included to be helpful for laboratory professionals' mapping
+                    to LOINC®. </para>
+            </listitem>
+        </orderedlist>
     </section>
     <section>
         <title>Discussion</title>
