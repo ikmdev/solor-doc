@@ -3,10 +3,9 @@
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-     <title>Current Knowledge Management (KM) Technologies, Industry Coding Standards, and KM
-        Hosting Options</title>
+     <title>Current KM Technologies, Industry Coding Standards, and KM Hosting Options</title>
     <sect1>
-        <title>Introduction to Integrated Knowledge Management </title>
+        <title>Introduction to IKM </title>
         <para>The healthcare system in America has undergone numerous changes throughout the past
             decades, most notably in the way it records, retains, and transfers medical records.
             Within these records, clinical laboratory data, including orders, results, and

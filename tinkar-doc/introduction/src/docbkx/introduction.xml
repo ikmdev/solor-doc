@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../docbook-customization/src/docbkx-stylesheet/common/komet.rnc" type="application/relax-ng-compact-syntax"?>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-  <title>Terminology Knowledge Architecture (Tinkar) Overview</title>
+  <title>Tinkar Overview</title>
   <para>Over the past decades, biomedical terminologies have increasingly been recognized as key
     resources for knowledge management, data integration, and decision support. [1] Acceleration and
     development of Electronic Health Record (EHR) systems has precipitated the emergence of
@@ -13,7 +13,7 @@
   <para>Interoperability requires standardized semantics based on reference terminology provided by
     standards development organizations, professional organizations, or government agencies. These
     organizations publish their content with the intention of licensing it to health information
-    technology (IT) vendors, providers, and research organizations. In the U.S., the core clinical
+    technology (IT) vendors, providexrs, and research organizations. In the U.S., the core clinical
     reference terminology is based on SNOMED CT®, LOINC®, and RxNorm. Healthcare organizations must
     adopt and integrate subsets or modules of various reference terminology and manage references,
     dependencies, versions, and releases. It is important for the integrity of medical records that

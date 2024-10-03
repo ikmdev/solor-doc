@@ -1,16 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://docbook.org/xml/5.1/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
-    xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-    <info>
-        <title>Integrated Knowledge Management (IKM) Volume 18</title>
-        <subtitle>Version 1 - Last Updated 07/01/2024</subtitle>
-    </info>
-    <part>
-        <title>Understanding Temporal Relationships in Healthcare: Enhancing Patient Care through
+<chapter xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink"
+    version="5.1">
+   <title>Understanding Temporal Relationships in Healthcare: Enhancing Patient Care through
             Data-Driven Insights</title>
-        <chapter>
+        <section>
             <title>Introduction</title>
         
                 <para>Temporal relationships in healthcare are crucial for understanding how events
@@ -35,12 +30,12 @@
                     <title>How Understanding Temporal Relationships Can Improve Patient Care and
                         Decision-Making</title>
                     <para>By integrating temporal data, healthcare systems can develop advanced
-                    decision support tools that provide timely alerts and reminders, improving
-                    adherence to clinical guidelines. For instance, identifying that a patient's
-                    infection developed within two weeks post-surgery can prompt appropriate
-                    preventive measures and timely interventions. This type of data-driven insight
-                    is pivotal for reducing medical errors, enhancing diagnostic accuracy, and
-                    optimizing treatment protocols.​ [1-2]​</para>
+                decision support tools that provide timely alerts and reminders, improving adherence
+                to clinical guidelines. For instance, identifying that a patient's infection
+                developed within two weeks post-surgery can prompt appropriate preventive measures
+                and timely interventions. This type of data-driven insight is pivotal for reducing
+                medical errors, enhancing diagnostic accuracy, and optimizing treatment protocols.​
+                [1, 2]​</para>
                     <para>Temporal reasoning also supports predictive modeling and artificial
                         intelligence (AI) applications in healthcare. These technologies can analyze
                         vast amounts of temporal data to identify patterns and predict future health
@@ -71,8 +66,8 @@
                         delivery, fostering more effective and efficient patient care.</para>
                 </section>
             
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Basics of Temporal Relationships in Healthcare</title>
             <section>
                 <title>What are Temporal Relationships?</title>
@@ -101,10 +96,10 @@
                     occurred within a specific timeframe post-surgery can influence the choice of
                     antibiotics and the urgency of intervention.​ [3-4]​</para>
                 <para><emphasis role="bold">Relevance to Clinical Decision-Making and Healthcare
-                        Operations:</emphasis>Temporal data helps in making informed clinical
-                    decisions and optimizing healthcare operations. For example, knowing the timing
-                    of symptom onset relative to treatment can guide clinical pathways and resource
-                    allocation.​ [3]​​ [5]​</para>
+                    Operations:</emphasis>Temporal data helps in making informed clinical decisions
+                and optimizing healthcare operations. For example, knowing the timing of symptom
+                onset relative to treatment can guide clinical pathways and resource allocation.​
+                [3, 5]​</para>
                 <para><emphasis role="bold">Types of Temporal Relationships</emphasis>
                     <itemizedlist>
                         <listitem>
@@ -136,21 +131,21 @@
                             chronic diseases like diabetes and its complications over time to adjust
                             treatment plans effectively.</para></listitem>
                     <listitem><para><emphasis role="bold">Emergency Care</emphasis>: Utilizing temporal data to enhance the
-                            response to acute conditions, such as heart attacks, by understanding
-                            the critical time windows for interventions.​ [3]​​ [6]​</para></listitem>
+                        response to acute conditions, such as heart attacks, by understanding the
+                        critical time windows for interventions.​ [3, 6]​</para></listitem>
                 </itemizedlist>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
         <title>Electronic Health Records (EHRs) and Temporal Data</title>
             <section>
                 <title>Introduction to EHRs</title>
                 <para>EHRs are digital versions of patients' paper charts, designed to store
-                    comprehensive health information in a secure, accessible format. EHRs provide
-                    real-time, patient-centered records that make information available instantly to
-                    authorized users. They are crucial for improving the quality of patient care by
-                    ensuring that accurate, updated information is accessible when and where it is
-                    needed.​ [7-8]​</para>
+                comprehensive health information in a secure, accessible format. EHRs provide
+                real-time, patient-centered records that make information available instantly to
+                authorized users. They are crucial for improving the quality of patient care by
+                ensuring that accurate, updated information is accessible when and where it is
+                needed.​ [7, 8]​</para>
                 <para>EHRs contain a wide range of data, including:</para>
                 <itemizedlist>
                     <listitem><para><emphasis role="bold">Demographics</emphasis>: Basic patient information such as age, gender,
@@ -164,7 +159,7 @@
                     <listitem><para><emphasis role="bold">Immunizations</emphasis>: Records of vaccines administered.</para></listitem>
                     <listitem><para><emphasis role="bold">Allergies</emphasis>: Known allergies and adverse reactions.</para></listitem>
                     <listitem><para><emphasis role="bold">Radiology Images</emphasis>: X-rays, MRIs, and other imaging results​.​​
-                            [9-10]​</para></listitem>
+                        [9, 10]​</para></listitem>
                 </itemizedlist>
             </section>
             <section>
@@ -198,8 +193,8 @@
                     make more informed decisions, improve patient outcomes, and enhance the overall
                     efficiency of healthcare delivery.</para>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Temporal Reasoning and Its Applications</title>
             <section>
                 <title>What is Temporal Reasoning?</title>
@@ -245,8 +240,8 @@
                         patient data. </para>
                 </section>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Temporal Pattern Matching</title>
             <section>
                 <title>What is Pattern Matching?</title>
@@ -269,18 +264,17 @@
                     reasons:</para>
                 <orderedlist>
                     <listitem><para>Early Detection and Prevention: By identifying early warning signs and patterns, healthcare
-                            providers can intervene sooner, potentially preventing serious
-                            complications. For example, patterns in vital signs can indicate the
-                            early onset of sepsis, allowing for prompt treatment​. [12-13]​</para></listitem>
+                        providers can intervene sooner, potentially preventing serious
+                        complications. For example, patterns in vital signs can indicate the early
+                        onset of sepsis, allowing for prompt treatment​. [12, 13]​</para></listitem>
                     <listitem><para>Understanding Disease Progression: Chronic diseases such as diabetes, hypertension, and cancer
-                            often follow specific progression patterns. Temporal pattern matching
-                            helps in monitoring these diseases, enabling healthcare providers to
-                            adjust treatment plans as needed to manage the disease effectively.​
-                            [13-14]​​ </para></listitem>
+                        often follow specific progression patterns. Temporal pattern matching helps
+                        in monitoring these diseases, enabling healthcare providers to adjust
+                        treatment plans as needed to manage the disease effectively.​ [13, 14]​​ </para></listitem>
                     <listitem><para>Personalized Medicine: Every patient is unique, and their response to treatments can vary.
-                            Temporal pattern matching allows for the customization of treatment
-                            plans based on the individual patterns observed in a patient's health
-                            data, leading to more effective and personalized care.​ [12]​ [14]​​ </para></listitem>
+                        Temporal pattern matching allows for the customization of treatment plans
+                        based on the individual patterns observed in a patient's health data,
+                        leading to more effective and personalized care.​ [12-14]​​ </para></listitem>
                 </orderedlist>
             </section>
             <section>
@@ -292,32 +286,31 @@
                 <orderedlist>
                     <listitem>
                         <para>
-                            <emphasis role="bold">Linear Inequalities</emphasis>: This method
-                            involves creating mathematical inequalities to define the relationships
-                            between different data points in time-series data. It is particularly
-                            useful in identifying linear trends and deviations in patient data. For
-                            instance, linear inequalities can be used to detect abnormal increases
-                            in blood pressure over time​. [12] [14]</para>
+                        <emphasis role="bold">Linear Inequalities</emphasis>: This method involves
+                        creating mathematical inequalities to define the relationships between
+                        different data points in time-series data. It is particularly useful in
+                        identifying linear trends and deviations in patient data. For instance,
+                        linear inequalities can be used to detect abnormal increases in blood
+                        pressure over time​. [12, 14]</para>
                     </listitem>
                     <listitem>
                         <para>
-                            <emphasis role="bold">Logic-Based Subsumption Testing</emphasis>: This
-                            technique uses logical rules to determine if one pattern subsumes
-                            another, meaning one pattern can be generalized from another.
-                            Logic-based subsumption testing is useful for ensuring that identified
-                            patterns are relevant and meaningful in different contexts. It helps in
-                            filtering out noise and focusing on significant patterns that can inform
-                            clinical decisions​. [12-13]</para>
+                        <emphasis role="bold">Logic-Based Subsumption Testing</emphasis>: This
+                        technique uses logical rules to determine if one pattern subsumes another,
+                        meaning one pattern can be generalized from another. Logic-based subsumption
+                        testing is useful for ensuring that identified patterns are relevant and
+                        meaningful in different contexts. It helps in filtering out noise and
+                        focusing on significant patterns that can inform clinical decisions​. [12,
+                        13]</para>
                     </listitem>
                     <listitem>
                         <para>
-                            <emphasis role="bold">Fuzzy Templates</emphasis>: Fuzzy logic is applied
-                            to handle uncertainties and ambiguities in medical data. Fuzzy templates
-                            allow for flexible matching of patterns, accommodating variations in
-                            data that are common in real-world healthcare scenarios. This method is
-                            particularly effective in dealing with imprecise data, such as
-                            patient-reported symptoms, which can vary in intensity and description​.
-                            [12-13]</para>
+                        <emphasis role="bold">Fuzzy Templates</emphasis>: Fuzzy logic is applied to
+                        handle uncertainties and ambiguities in medical data. Fuzzy templates allow
+                        for flexible matching of patterns, accommodating variations in data that are
+                        common in real-world healthcare scenarios. This method is particularly
+                        effective in dealing with imprecise data, such as patient-reported symptoms,
+                        which can vary in intensity and description​. [12, 13]</para>
                     </listitem>
                 </orderedlist>
             </section>
@@ -327,20 +320,20 @@
                     including but not limited to:</para>
                 <orderedlist>
                     <listitem><para><emphasis role="bold">Managing Infections</emphasis>: By analyzing patterns in infection data,
-                            healthcare providers can predict and manage outbreaks more effectively.
-                            For example, recognizing a pattern of increased infections following
-                            certain surgical procedures can lead to changes in preoperative and
-                            postoperative care protocols to reduce infection rates​. [12-13]​​ </para></listitem>
+                        healthcare providers can predict and manage outbreaks more effectively. For
+                        example, recognizing a pattern of increased infections following certain
+                        surgical procedures can lead to changes in preoperative and postoperative
+                        care protocols to reduce infection rates​. [12, 13]​​ </para></listitem>
                     <listitem><para><emphasis role="bold">Monitoring Chronic Diseases</emphasis>: Temporal pattern matching helps
-                            in tracking the progression of chronic diseases, allowing for timely
-                            adjustments to treatment plans. For instance, patterns in glucose levels
-                            can help manage diabetes more effectively by indicating when adjustments
-                            to insulin doses are needed​. [13-14]​</para></listitem>
+                        in tracking the progression of chronic diseases, allowing for timely
+                        adjustments to treatment plans. For instance, patterns in glucose levels can
+                        help manage diabetes more effectively by indicating when adjustments to
+                        insulin doses are needed​. [13, 14]​</para></listitem>
                     <listitem><para><emphasis role="bold">Decision Support Systems</emphasis>: Integrating pattern matching into
-                            clinical decision support systems can provide real-time alerts and
-                            recommendations based on historical patient data. This integration helps
-                            clinicians make informed decisions quickly, improving patient outcomes
-                            and reducing the likelihood of medical errors​. ​​[12] [14]​</para></listitem>
+                        clinical decision support systems can provide real-time alerts and
+                        recommendations based on historical patient data. This integration helps
+                        clinicians make informed decisions quickly, improving patient outcomes and
+                        reducing the likelihood of medical errors​. ​​[12, 14]​</para></listitem>
                     <listitem><para><emphasis role="bold">Predictive Analytics</emphasis>: Temporal pattern matching is a key
                             component of predictive analytics in healthcare. By analyzing historical
                             data, predictive models can forecast future health events, such as
@@ -348,11 +341,10 @@
                             proactive interventions, potentially reducing healthcare costs and
                             improving patient outcomes​. [12-14]​</para></listitem>
                     <listitem><para><emphasis role="bold">Resource Allocation</emphasis>: Understanding temporal patterns in
-                            patient admissions and treatments can help healthcare facilities
-                            allocate resources more efficiently. For example, recognizing patterns
-                            in seasonal illness outbreaks can ensure that hospitals are adequately
-                            staffed and stocked with necessary supplies during peak times​. [12]
-                            ​​[14]​</para></listitem>
+                        patient admissions and treatments can help healthcare facilities allocate
+                        resources more efficiently. For example, recognizing patterns in seasonal
+                        illness outbreaks can ensure that hospitals are adequately staffed and
+                        stocked with necessary supplies during peak times​. [12, 14]​</para></listitem>
                 </orderedlist>
                 <para>Temporal pattern matching is an invaluable tool in healthcare, offering
                     numerous benefits from early detection of diseases to personalized treatment
@@ -360,8 +352,8 @@
                     can gain deeper insights into patient data, ultimately leading to improved
                     patient care and outcomes.</para>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Implementing Temporal Reasoning in Healthcare Systems</title>
             <section>
                 <title>Understanding the Requirements</title>
@@ -432,17 +424,17 @@
                             implementation of temporal reasoning systems​. [1]​</para></listitem>
                 </itemizedlist>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Benefits of Understanding Temporal Relationships</title>
             <section>
                 <title>Enhancing Accuracy in Diagnosis and Treatment</title>
                 <para>Understanding temporal relationships in healthcare can significantly enhance
-                    the accuracy of diagnosis and treatment. By analyzing the timing and sequence of
-                    symptoms and treatments, healthcare providers can identify patterns that might
-                    otherwise go unnoticed. For instance, recognizing that a specific symptom tends
-                    to precede a severe condition can prompt earlier intervention, potentially
-                    improving patient outcomes​. [1] ​​[3]​</para>
+                the accuracy of diagnosis and treatment. By analyzing the timing and sequence of
+                symptoms and treatments, healthcare providers can identify patterns that might
+                otherwise go unnoticed. For instance, recognizing that a specific symptom tends to
+                precede a severe condition can prompt earlier intervention, potentially improving
+                patient outcomes​. [1, 3]​</para>
                 <section>
                     <title>Reducing Errors and Improving Outcomes</title>
                     <para>Temporal data helps in reducing medical errors by providing a
@@ -478,38 +470,35 @@
                 <section>
                     <title>Emerging Technologies and Future Directions</title>
                     <para>The future of temporal reasoning in healthcare is promising, with emerging
-                        technologies such as artificial intelligence (AI) and machine learning
-                        playing a significant role. These technologies can analyze vast amounts of
-                        temporal data to identify patterns and predict future health events. For
-                        instance, AI algorithms can predict the likelihood of disease recurrence
-                        based on historical data, enabling proactive care management.​ [1]​​
-                        [15]​</para>
+                    technologies such as artificial intelligence (AI) and machine learning playing a
+                    significant role. These technologies can analyze vast amounts of temporal data
+                    to identify patterns and predict future health events. For instance, AI
+                    algorithms can predict the likelihood of disease recurrence based on historical
+                    data, enabling proactive care management.​ [1, 15]​</para>
                 </section>
                 <section>
                     <title>The Role of AI and Machine Learning in Temporal Reasoning</title>
                     <para>AI and machine learning are set to revolutionize temporal reasoning in
-                        healthcare. These technologies can process complex temporal data and provide
-                        insights that are beyond the capabilities of traditional analysis methods.
-                        They can help in developing predictive models that forecast patient
-                        outcomes, allowing for early interventions and personalized treatment
-                        strategies. The integration of AI and machine learning into temporal
-                        reasoning systems will enhance the precision and effectiveness of healthcare
-                        delivery​. [1]​​ [15]​</para>
+                    healthcare. These technologies can process complex temporal data and provide
+                    insights that are beyond the capabilities of traditional analysis methods. They
+                    can help in developing predictive models that forecast patient outcomes,
+                    allowing for early interventions and personalized treatment strategies. The
+                    integration of AI and machine learning into temporal reasoning systems will
+                    enhance the precision and effectiveness of healthcare delivery​. [1, 15]​</para>
                 </section>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Case Studies and Success Stories</title>
             <section>
                 <title>Case Study 1: Infection Control</title>
                 <para>The COVID-19 pandemic highlighted the importance of temporal relationships in
-                    infection control within healthcare settings. By analyzing the timing of
-                    infections relative to patient admissions and procedures, healthcare facilities
-                    were able to identify patterns that informed better infection control practices.
-                    For example, one study found that understanding the temporal spread of
-                    healthcare-associated infections (HAIs) allowed for targeted interventions that
-                    reduced infection rates in intensive care units (ICUs) during the pandemic​.
-                    [16-17]</para>
+                infection control within healthcare settings. By analyzing the timing of infections
+                relative to patient admissions and procedures, healthcare facilities were able to
+                identify patterns that informed better infection control practices. For example, one
+                study found that understanding the temporal spread of healthcare-associated
+                infections (HAIs) allowed for targeted interventions that reduced infection rates in
+                intensive care units (ICUs) during the pandemic​. [16, 17]</para>
                 <para>Infection control measures, such as the timely use of antibiotics, were
                     optimized by tracking the temporal relationship between antibiotic
                     administration and the onset of respiratory infections. This approach not only
@@ -551,33 +540,31 @@
                     facilities can ensure they have adequate staff and resources available during
                     critical periods​. [17]​</para>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>Conclusion</title>
             <section>
                 <title>Summary of Key Points</title>
                 <para>This volume has explored the significance of temporal relationships in
-                    healthcare, demonstrating how understanding these relationships can enhance
-                    patient care and decision-making processes. We began by defining temporal
-                    relationships and discussing their importance in healthcare settings, followed
-                    by an overview of temporal data within EHRs. The subsequent chapters delved into
-                    temporal reasoning, pattern matching, and the implementation of temporal
-                    reasoning in healthcare systems. Finally, we showcased case studies that
-                    highlighted the practical applications and benefits of temporal reasoning in
-                    infection control, chronic disease management, and emergency care.​ [1]​​
-                    [20]​</para>
+                healthcare, demonstrating how understanding these relationships can enhance patient
+                care and decision-making processes. We began by defining temporal relationships and
+                discussing their importance in healthcare settings, followed by an overview of
+                temporal data within EHRs. The subsequent chapters delved into temporal reasoning,
+                pattern matching, and the implementation of temporal reasoning in healthcare
+                systems. Finally, we showcased case studies that highlighted the practical
+                applications and benefits of temporal reasoning in infection control, chronic
+                disease management, and emergency care.​ [1, 20]​</para>
             </section>
             <section>
                 <title>Encouraging Healthcare Professionals to Integrate Temporal Reasoning into
                     Their Practice</title>
                 <para>Healthcare professionals are encouraged to integrate temporal reasoning into
-                    their daily practice. Understanding temporal relationships can significantly
-                    improve diagnostic accuracy, treatment efficacy, and overall patient outcomes.
-                    By leveraging temporal data, healthcare providers can make more informed,
-                    data-driven decisions, leading to better resource management and enhanced
-                    patient care. Implementing advanced decision support systems that utilize
-                    temporal reasoning can also help reduce medical errors and improve the quality
-                    of care provided.​ [1]​​ [20]​</para>
+                their daily practice. Understanding temporal relationships can significantly improve
+                diagnostic accuracy, treatment efficacy, and overall patient outcomes. By leveraging
+                temporal data, healthcare providers can make more informed, data-driven decisions,
+                leading to better resource management and enhanced patient care. Implementing
+                advanced decision support systems that utilize temporal reasoning can also help
+                reduce medical errors and improve the quality of care provided.​ [1, 20]​</para>
             </section>
             <section>
                 <title>Further Reading and Resources</title>
@@ -628,8 +615,8 @@
                     deeper understanding of temporal reasoning and its transformative potential in
                     improving patient care and healthcare outcomes. </para>
             </section>
-        </chapter>
-        <chapter>
+        </section>
+        <section>
             <title>References</title>
             <orderedlist>
                 <listitem>
@@ -758,6 +745,6 @@
                         Philippines. J Healthc Inform Res. 2021 Mar;5(1):54–69. </para>
                 </listitem>
             </orderedlist>
-        </chapter>
-    </part>
-</book>
+        </section>
+</chapter>
+

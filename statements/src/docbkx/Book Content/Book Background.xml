@@ -417,8 +417,9 @@
                 reports. [9]</para>
         </section>
         <section>
-            <title>The Adoption of Three Key Terminology Standards: SNOMED CT®, LOINC® and
-                RxNorm</title>
+            <title>The Adoption of Three Key Terminology Standards: Systematized Nomenclature of
+                Medicine Clinical Terms (SNOMED CT®), Logical Observation Identifiers Names and
+                Codes® (LOINC®) and RxNorm</title>
             <para>Over the last several decades, SNOMED CT®, LOINC®, and RxNorm have been
                 increasingly recognized as key resources for: <orderedlist>
                     <listitem>

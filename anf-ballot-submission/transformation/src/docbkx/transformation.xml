@@ -259,8 +259,8 @@
 
 
         <section>
-            <title>XSLT</title>
-            <para>XSLT (eXtensible Stylesheet Language Transformations) is a World Wide Web
+            <title>eXtensible Stylesheet Language Transformations (XSLT)</title>
+            <para>eXtensible Stylesheet Language Transformations (XSLT) is a World Wide Web
                 Consortium (W3C) standard language for the transformation of structured data. <link
                     linkend="bib9">[13]</link> XSLT transformation scripts take as input any valid
                 XML document and produce as output an ASCII-formatted document (including XML, HTML,
@@ -331,7 +331,7 @@
         </section>
 
         <section>
-            <title>FHIR Mapping Language</title>
+            <title>Fast Healthcare Interoperability Resources (FHIR) Mapping Language</title>
             <para>The FHIR mapping language (FML) <link linkend="bib11">[15]</link> is a relatively
                 new, bespoke transformation language specifically designed to transform HL7 FHIR
                 resources to alternative representations, including different FHIR resources, C/CDE

@@ -61,7 +61,7 @@
             data to support APIs intended for analysis or to automate information derived from
             device measurements, clinician inputs, and patient-generated data.</para>
         <section>
-            <title>Analysis API</title>
+            <title>Analysis Application Programming Interface (API)</title>
                     <para>The typical implementation of ANF will be a system that normalizes
                 clinical information (e.g. FHIR, CDA documents) to be used by business and decision
                 support rules. Healthcare enterprises may use middleware, standards-based

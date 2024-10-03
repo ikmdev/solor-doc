@@ -3,7 +3,7 @@
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-     <title>Framework Considerations for KM</title>
+     <title>Framework Considerations for Knowledge Management (KM)</title>
     <sect1>
         <title>Framework Considerations Purpose</title>
         <para>This document will serve to identify a framework of considerations for comparing KM

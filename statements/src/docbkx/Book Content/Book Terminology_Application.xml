@@ -6,7 +6,7 @@
     <para>Terminology is used throughout the architectural layers.  In this section we will give
         examples of how terminology should best be used in the various architectural layers.</para>
     <section>
-        <title>Analysis Normal Form Terminology Usage</title>
+        <title>Analysis Normal Form (ANF) Terminology Usage</title>
         <para>The Statement Layer requires that the Terminology Expression fields in a statement are
             disjoint: There should be no confusion—or creation of false dichotomies. There should be
             one, and only one, place to put each type of information in a terminology expression.

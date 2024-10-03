@@ -117,7 +117,7 @@
         </orderedlist>
     </section>
     <section>
-        <title>Patient Data Privacy and Integrated Knowledge Management (IKM)</title>
+        <title>Patient Data Privacy and IKM</title>
         <para>Integrated Knowledge Management (IKM) does not handle or store individual patient records, and therefore does not
             directly have authority over the security or dissemination of these records. IKM is a
             contributed knowledge management application that will serve as a quality care driver to
@@ -129,8 +129,8 @@
             integrity and quality of healthcare data that are transferred within and between systems
             in the healthcare labyrinth. </para>
         <section>
-            <title>Health Insurance Portability and Accountability Act (HIPAA) v. General Data
-                Protection Regulation (GDPR) and Patient Data Privacy</title>
+            <title>Health Insurance Portability and Accountability Act (HIPAA) v. GDPR and Patient
+                Data Privacy</title>
             <para>HIPAA is a law designed specifically to protect individuals’ medical information
                 while GDPR is a broader regulation that encompasses protection of various types of
                 personal data, including health data. However, both laws protect an individual’s
