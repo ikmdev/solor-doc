@@ -85,8 +85,9 @@
         </section>
     </section>
     <section>
-        <title>Tinkar interfacing with HL7 Unified Terminology Governance (UTG), HL7 Terminological
-            Content (THO), and HL7 Terminology Authority (HTA)</title>
+        <title>Tinkar interfacing with Health Level Seven International (HL7) Unified Terminology
+            Governance (UTG),  HL7 Terminological Content (THO), and HL7 Terminology Authority
+            (HTA)</title>
         <para>The three HL7 processes for maintaining and distributing HL7 terminology content are
             Unified Terminology Governance (UTG), HL7 Terminological Content (THO), and HL7
             Terminology Authority (HTA). Our understanding of these HL7 Areas: </para>

@@ -5,7 +5,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
     <info>
         <title>Integrated Knowledge Management (IKM) Book</title>
-        <subtitle>Version 1 - Last Updated 08/26/2024</subtitle>
+        <subtitle>Version 2 - Last Updated 09/18/2024</subtitle>
     </info>
     <part>
         <title>Introduction</title>
@@ -110,7 +110,6 @@
     <part>
         <title>Use Cases and Summary of Findings</title>
         <xi:include href="Use-Case-Chapter.xml"/>
-        
         <xi:include
             href="Summary%20of%20Findings%20%E2%80%93%20RWE%20Search%20and%20Query%20Methods.xml"/>
     </part>
@@ -130,6 +129,7 @@
         />
     </part>
     <part>
-        <xi:include href="Volume%20Appendix.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+        <title>Appendix</title>
+        <xi:include href="Quick%20Reference%20Guide.xml"/>
     </part>
 </book>

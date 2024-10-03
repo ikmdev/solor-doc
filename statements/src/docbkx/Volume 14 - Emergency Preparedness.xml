@@ -4,11 +4,11 @@
 <book xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
     <info>
-        <title>Integrated Knowledge Management (IKM) Volume 8</title>
-        <subtitle>Version 2 - Last Updated 04/11/2024</subtitle>
+        <title>Integrated Knowledge Management (IKM) Volume 14</title>
+        <subtitle>Version 1 - Last Updated 4/24/2024</subtitle>
     </info>
     <part>
-        <title>Komet User Guide</title>
-        <xi:include href="Komet-User-Guide.xml"/>
+        <title>IKM and Emergency Disaster Response</title>
     </part>
+    <xi:include href="Emergency%20Preparedness.xml"/>
 </book>

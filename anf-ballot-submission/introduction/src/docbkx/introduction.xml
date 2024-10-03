@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> <?xml-model href="../../../docbook-customization/src/docbkx-stylesheet/common/komet.rnc" type="application/relax-ng-compact-syntax"?>
 <chapter xmlns="http://docbook.org/ns/docbook" xmlns:xi="http://www.w3.org/2001/XInclude"
   xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-  <title>Why Analysis Normal Form? A Normal Form for Clinical Statements</title>
+  <title>Why ANF? A Normal Form for Clinical Statements</title>
   <para>A <glossterm baseform="Clinical Statement">clinical statement</glossterm> is a definite and
     clear representation of a clinically-significant fact or situation was observed to exist or to
     have happened, or that a particular procedure was requested. A clinical statement can be
@@ -217,7 +217,7 @@
     </section>
   </section>
   <section>
-    <title>Analysis Normal Form </title>
+    <title>ANF </title>
     <para><emphasis role="bold">Analysis Normal Form</emphasis> (ANF) is a logical model intended to
       represent a <emphasis role="bold">normalized</emphasis> view of aggregate clinical statements
       recorded during treatment for analysis, research, clinical decision support, and other
@@ -662,7 +662,7 @@ Remove the definition from the figure, and link to glossary where appropriate. "
       </para>
     </section>
     <section>
-      <title>Related ISO Standards</title>
+      <title>Related International Organization for Standardization (ISO) Standards</title>
       <para>ANF is intended for projects that aggregate clinical statements from a variety of
         sources, independent of formalism or approach used by the source system. It normalizes
         approaches and methodologies in use across the industry and provide a uniform representation
