@@ -516,6 +516,132 @@ The September 2022 edition of RxNorm includes 13856 (base) ingredients, 5065 bra
         </table>
     </section>
     <section>
+        <title><?oxy_comment_start author="rgeorgacopoulos" timestamp="20250312T214316-0500" comment="moved up from section below SNOMED CT Design Criteria"?>Comparing<?oxy_comment_end?>
+            LOINC®, SNOMED CT® and RxNorm to Cimino’s Desiderata</title>
+        <para>Despite the guiding principles for terminology design and representation summarized
+            above, “LOINC® does not fulfill the definition of a computable medical terminology as
+            articulated by Cimino et al., that being one based in concept orientation, concept
+            definition, and polyhierarchy. These characteristics enable the logical inference
+            between concepts, parts, and part elements.” [12] LOINC® is a well-maintained
+            terminology – there is a deprecation process and has concept permanence where codes
+            aren’t reused – but they do not establish the basic parameters of hierarchy and
+            polyhierarchy. And, they are violating the tenants of Cimino’s Desiderata.</para>
+        <table>
+            <title>Correspondence of LOINC® to Cimino’s Desiderata</title>
+            <tgroup cols="2">
+                <colspec colnum="1" colname="col1"/>
+                <colspec colnum="2" colname="col2"/>
+                <tbody>
+                    <row>
+                        <entry><emphasis role="bold">Tenant</emphasis></entry>
+                        <entry><emphasis role="bold">LOINC®</emphasis></entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Concept Orientation</emphasis></entry>
+                        <entry>No</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Concept Permanence</emphasis></entry>
+                        <entry>Yes</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Non-Semantic Concept
+                            Identifier</emphasis></entry>
+                        <entry>Yes</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Polyhierarchy</emphasis></entry>
+                        <entry>No</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Formal Definitions</emphasis></entry>
+                        <entry>No</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Classification</emphasis></entry>
+                        <entry>No – they have a miscellaneous code</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Multiple Granularities</emphasis></entry>
+                        <entry>No</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Multiple Consistent Views</emphasis></entry>
+                        <entry>No</entry>
+                    </row>
+                    <row>
+                        <entry><emphasis role="bold">Representation of Context</emphasis></entry>
+                        <entry>No, but they have Narrative Summary</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <section>
+            <title>Comparison of SNOMED CT® to Cimino’s Desiderata</title>
+            <para>SNOMED CT® is the terminology of our current awareness most closely aligns with
+                the Desiderata. As stated elsewhere, it uses Description Logics for computability
+                and facilitates the use of reasoners to determine equivalence among various
+                syntactic representations. The primary downsides are 1). Some proprietary concepts
+                and 2). Lengthy concept submissions process for consideration into either the
+                National or International editions. This lack of agility, efficiency and speed is
+                apparent in crisis situations such as COVID-19 pandemic. Otherwise, it has proven to
+                be robust and has a large global community to assist with its development and
+                vetting.</para>
+            <table>
+                <title>Correspondence of SNOMED CT® to Cimino’s Desiderata</title>
+                <tgroup cols="2">
+                    <colspec colnum="1" colname="col1"/>
+                    <colspec colnum="2" colname="col2"/>
+                    <tbody>
+                        <row>
+                            <entry><emphasis role="bold">Tenant</emphasis></entry>
+                            <entry><emphasis role="bold">SNOMED CT®</emphasis></entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Concept Orientation</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Concept Permanence</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Non-Semantic Concept
+                                Identifier</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Polyhierarchy</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Formal Definitions</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Classification</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Multiple Granularities</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Multiple Consistent
+                                Views</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                        <row>
+                            <entry><emphasis role="bold">Representation of
+                                Context</emphasis></entry>
+                            <entry>Yes</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </section>
+    </section>
+    <section>
         <title>Unified Medical Language System (UMLS)</title>
         <para>The NLM integrates terms and codes from over 150 source vocabularies by concept,
             attribute, and meaning in a set of files and software called the UMLS. The UMLS brings
@@ -543,32 +669,10 @@ The September 2022 edition of RxNorm includes 13856 (base) ingredients, 5065 bra
                     language processing tools</para>
             </listitem>
         </itemizedlist>
-        <para>The Semantic Network and Lexical Tools are used to produce the Metathesaurus.
-            <?oxy_comment_start author="rgeorgacopoulos" timestamp="20250311T150229-0500" comment="Comment from Russ Ham Feb 2025: Maybe relocate to section 16"?>The
-            steps to produce the Metathesaurus involve:<?oxy_comment_end?></para>
-        <itemizedlist>
-            <listitem>
-                <para>Processing the terms and codes from source terminologies using the Lexical
-                    Tools</para>
-            </listitem>
-            <listitem>
-                <para>Grouping synonymous terms into UMLS concepts</para>
-            </listitem>
-            <listitem>
-                <para>Categorizing concepts by semantic types using the Semantic Network</para>
-            </listitem>
-            <listitem>
-                <para>Incorporating relationships and attributes provided by source
-                    terminologies</para>
-            </listitem>
-            <listitem>
-                <para>Releasing the data in a common format called the Rich Release Format
-                    (RRF)</para>
-            </listitem>
-        </itemizedlist>
-        <para>These tools, while helpful, have gaps. Raje et al. highlighted issues with
-            completeness, correctness, and redundancy when they found gaps in the UMLS
-            Metathesaurus’ coverage of disease concepts.
+        <para>The Semantic Network and Lexical Tools are used to produce the Metathesaurus. These
+            tools, while helpful, have gaps. Raje et al. highlighted issues with completeness,
+            correctness, and redundancy when they found gaps in the UMLS Metathesaurus’ coverage of
+            disease concepts.
                 <citation><?oxy_comment_start author="tocrow" timestamp="20240624T152747-0400" comment="Cite"?>Raje<?oxy_comment_end?></citation>
             The UMLS does not necessarily look at semantic equivalence of concepts across or within
             terminologies, rather focuses on lexical equivalence. A good example of this is how the
@@ -863,8 +967,8 @@ OHDSI&apos;s Standard Vocabulary relies heavily on mapping non-standard concepts
                 place to ensure only correct terms are associated with an object in Solor.</para>
             <para>Having a consistent naming convention defined will assist with textual queries to identify duplicates when concepts are primitive and not able to be fully defined using relationships within Solor. Having a consistent way of representing Fully Specified Names will alleviate the issue of users creating duplicate concepts like &quot;Disorder of immune function&quot; and &quot;Immune function disorder&quot;.</para>
             <para>Consistent naming is also important to support effective retrieval. For example,
-                the SNOMED CT® concept 386560004 |Glasgow coma score finding (finding)| has 13
-                children all with the string Glasgow coma scale instead of Glasgow coma score. </para>
+                    the SNOMED CT® concept 386557006 Glasgow coma score finding (finding)| has 13
+                    children all with the string Glasgow coma scale instead of Glasgow coma score. </para>
             <para>Another common issue is to add a synonym to a concept that is more specific than
                 the concept itself. A concept should only have synonyms that accurately represent a
                 concept and not any of its children. If a synonym has a more specific meaning, a new
@@ -1058,218 +1162,6 @@ OHDSI&apos;s Standard Vocabulary relies heavily on mapping non-standard concepts
                 description logic and chose not to provide a defining taxonomy or fully define
                 LOINC® parts.</para>
         </section>
-    </section>
-    <section>
-        <title>Comparing LOINC®, SNOMED CT® and RxNorm to Cimino’s Desiderata</title>
-        <para>Despite the guiding principles for terminology design and representation summarized
-            above, “LOINC® does not fulfill the definition of a computable medical terminology as
-            articulated by Cimino et al., that being one based in concept orientation, concept
-            definition, and polyhierarchy. These characteristics enable the logical inference
-            between concepts, parts, and part elements.” [12] LOINC® is a well-maintained
-            terminology – there is a deprecation process and has concept permanence where codes
-            aren’t reused – but they do not establish the basic parameters of hierarchy and
-            polyhierarchy. And, they are violating the tenants of Cimino’s Desiderata.</para>
-        <table>
-                <title>Correspondence of LOINC® to Cimino’s Desiderata</title>
-                <tgroup cols="2">
-                    <colspec colnum="1" colname="col1"/>
-                    <colspec colnum="2" colname="col2"/>
-                    <tbody>
-                        <row>
-                            <entry><emphasis role="bold">Tenant</emphasis></entry>
-                            <entry><emphasis role="bold">LOINC®</emphasis></entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Concept Orientation</emphasis></entry>
-                            <entry>No</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Concept Permanence</emphasis></entry>
-                            <entry>Yes</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Non-Semantic Concept
-                                Identifier</emphasis></entry>
-                            <entry>Yes</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Polyhierarchy</emphasis></entry>
-                            <entry>No</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Formal Definitions</emphasis></entry>
-                            <entry>No</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Classification</emphasis></entry>
-                            <entry>No – they have a miscellaneous code</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Multiple Granularities</emphasis></entry>
-                            <entry>No</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Multiple Consistent
-                                Views</emphasis></entry>
-                            <entry>No</entry>
-                        </row>
-                        <row>
-                            <entry><emphasis role="bold">Representation of
-                                Context</emphasis></entry>
-                            <entry>No, but they have Narrative Summary</entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        <section>
-            <title>Comparison of SNOMED CT® to Cimino’s Desiderata</title>
-            <para>SNOMED CT® is the terminology of our current awareness most closely aligns with
-                the Desiderata. As stated elsewhere, it uses Description Logics for computability
-                and facilitates the use of reasoners to determine equivalence among various
-                syntactic representations. The primary downsides are 1). Some proprietary concepts
-                and 2). Lengthy concept submissions process for consideration into either the
-                National or International editions. This lack of agility, efficiency and speed is
-                apparent in crisis situations such as COVID-19 pandemic. Otherwise, it has proven to
-                be robust and has a large global community to assist with its development and
-                vetting.</para>
-            <table>
-                <title>Correspondence of SNOMED CT® to Cimino’s Desiderata</title>
-                    <tgroup cols="2">
-                        <colspec colnum="1" colname="col1"/>
-                        <colspec colnum="2" colname="col2"/>
-                        <tbody>
-                            <row>
-                                <entry><emphasis role="bold">Tenant</emphasis></entry>
-                                <entry><emphasis role="bold">SNOMED CT®</emphasis></entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Concept Orientation</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Concept Permanence</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Non-Semantic Concept
-                                        Identifier</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Polyhierarchy</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Formal Definitions</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Classification</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Multiple
-                                    Granularities</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Multiple Consistent
-                                    Views</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Representation of
-                                    Context</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                        </tbody>
-                    </tgroup>
-                </table>
-            </section>
-        <section>
-            <title>Comparison of RxNorm to Cimino’s Desiderata</title>
-            <para>While RxNorm meets most of the Desiderata’s requirements, there are a few that are
-                not met. Of particular importance is the lack of Description Logics. Use of a
-                Description Logics reasoner can help in overcoming important drawbacks of
-                multi-axial systems: (1) the capability of detecting semantic equivalence of
-                syntactically different expressions, and (2) the automated classification of
-                concepts in a hierarchy. RxNorm has another issue of not being a global standard as
-                its development and main use is in the U.S. where it is a nationally recognized
-                standard, i.e. Meaningful Use. </para>
-            <para>However, recent work by Bona et al. have been developing a Drug Ontology product
-                (DrOn), based on RxNorm and Chemical Entities of Biological Interest Ontology, which
-                is a modular and extensible ontology of drug products, their ingredients and
-                biological activity to enable comparative effectiveness and allow researchers to
-                query National Drug Codes (NDCs) in multiple ways. Bone et al. go on to say the
-                following:</para>
-            <para><emphasis role="italic">We have implemented a full accounting of national drug
-                    codes and RxNorm unique concept identifiers as information content entities, and
-                    of the processes involved in managing their creation and changes. This includes
-                    an OWL file that implements and defines the classes necessary to model these
-                    entities. A separate file contains an instance-level prototype in OWL that
-                    demonstrates the feasibility of this approach to representing NDCs and the
-                    RxCUIs and the processes of managing them by retrieving and representing several
-                    individual NDCs, both active and inactive, and the RxCUIs to which they are
-                    connected. We also demonstrate how historic information about these identifiers
-                    in DrOn can be easily retrieved using a simple SPARQL Protocol and RDF Query
-                    Language (SPARQL).</emphasis>[13]</para>
-            <para>This development may have a significant impact on improving knowledge management
-                as well as the ability to utilize Description Logics reasoners with its attendant
-                benefits.</para>
-                <table>
-                    <title>Correspondence of RxNorm to Cimino’s Desiderata</title>
-                    <tgroup cols="2">
-                        <colspec colnum="1" colname="col1"/>
-                        <colspec colnum="2" colname="col2"/>
-                        <tbody>
-                            <row>
-                                <entry><emphasis role="bold">Tenant</emphasis></entry>
-                                <entry><emphasis role="bold">RxNorm</emphasis></entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Concept Orientation</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Concept Permanence</emphasis></entry>
-                                <entry>No – remapping, changing atoms, splitting, etc.</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Non-Semantic Concept
-                                        Identifier</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Polyhierarchy</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Formal Definitions</emphasis></entry>
-                                <entry>No – [Ingredients] [Strength] [Dose] enough?</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Classification</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Multiple
-                                    Granularities</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Multiple Consistent
-                                    Views</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                            <row>
-                                <entry><emphasis role="bold">Representation of
-                                    Context</emphasis></entry>
-                                <entry>Yes</entry>
-                            </row>
-                        </tbody>
-                    </tgroup>
-                </table>
-            </section>
     </section>
     <section>
         <title>Current Opportunities for SNOMED CT®, LOINC® and RxNorm to Integrate, Enhance and
@@ -1566,10 +1458,10 @@ OHDSI&apos;s Standard Vocabulary relies heavily on mapping non-standard concepts
                             connectivity by an additional 9000 LOINC® codes</para>
                     </listitem>
                 </itemizedlist>
-                <para>Overall, these results suggest decent quality maintenance for LOINC® as these
-                    counts are relatively small considering the 450k+ concepts in LOINC® as part of
-                    this study. However, the key takeaway from this body of work is that LOINC®
-                    could benefit from the application of Description Logic by allowing for
+                <para>Overall, these results suggest adequate quality maintenance for LOINC® as
+                    these counts are relatively small considering the 450k+ concepts in LOINC® as
+                    part of this study. However, the key takeaway from this body of work is that
+                    LOINC® could benefit from the application of Description Logic by allowing for
                     automated classification and equivalence detection. [19]</para>
             </section>
             <section>
@@ -1818,9 +1710,9 @@ OHDSI&apos;s Standard Vocabulary relies heavily on mapping non-standard concepts
             <para>The objective of this work is to document data collection methods and statement
                 model standards to demonstrate the importance of an interoperable data system and
                 downstream analytical scenarios through a use case for Long COVID as an example of
-                an emerging acute chronic infectious disease. We aim to highlight how Analysis
-                Normal Form (ANF) can be used to standardize the representation of equivalent
-                concepts associated with data capture, storage and aggregation within the Long COVID
+                an emerging chronic infectious disease. We aim to highlight how Analysis Normal Form
+                (ANF) can be used to standardize the representation of equivalent concepts
+                associated with data capture, storage and aggregation within the Long COVID
                 workflow. This work utilized four main aims to demonstrate how ANF-thinking could
                 improve use case outcomes and reduce the clinical burden on data consumers during
                 data collection and aggregation:</para>
