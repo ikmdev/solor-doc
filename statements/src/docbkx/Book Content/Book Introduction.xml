@@ -366,11 +366,12 @@
                 other industries. Health data is unique in its direct association with a person’s
                 health outcomes. Nuanced concepts exist in patient care settings creating challenges
                 for the representation thereof in data capture and transmission. Laboratory testing
-                on a specimen involves a plethora of biological concepts which must be represented
-                by data in a meaningful way while maintaining precision as well as consumption for
-                other entities or systems in the ecosystem. When an association to a patient’s
-                health outcomes is combined with such nuanced concepts, exceptional rigor must be
-                taken in the maintenance of data precision and representation.</para>
+                on a specimen involves a plethora of biological concepts and different units of
+                measure which must be represented by data in a meaningful way while maintaining
+                precision as well as consumption for other entities or systems in the ecosystem.
+                When an association to a patient’s health outcomes is combined with such nuanced
+                concepts, exceptional rigor must be taken in the maintenance of data precision and
+                representation.</para>
         </section>
         <section>
             <title>The Size, Scale, and Complexity of the System</title>
