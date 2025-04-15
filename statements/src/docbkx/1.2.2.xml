@@ -3,7 +3,8 @@
 <?xml-model href="http://docbook.org/xml/5.1/sch/docbook.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <chapter xmlns="http://docbook.org/ns/docbook"
     xmlns:xlink="http://www.w3.org/1999/xlink" version="5.1">
-    <title>Summary of Findings: Technologies that Support Harmonization of Terminology Standards</title>
+    <title>Summary Summary of Findings: Technologies that Support Harmonization of Terminology
+        Standards</title>
     <section>
         <title>Introduction</title>
         <para>Health IT standards are critical for representing and sharing health data in a large
