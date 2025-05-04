@@ -6,16 +6,15 @@
 <section>
         <title>Solor</title>
         <para>Solor integrates terminology content (SNOMED CT®, LOINC®, RxNorm, etc.) from its
-            native format into a common Solor format. Once the content is in Solor, where
-            equivalency is determined through various methods where concepts of the same idea are
-            aggregated. For example, Gentamycin from SNOMED CT® is the same as Gentamycin from
-            LOINC®, and is also the same Gentamycin from RxNorm. The end result from this process is
-            the creation of a Solor concept that is devoid of any source information (but will have
-            traceability), and is exposed to the user to view, use, and extend. In the Gentamycin
-            example, a user will find a concept that is devoid of any source information and will
-            not need to know if this is the SNOMED CT®/LOINC®/RxNorm Gentamycin that needs to be
-            selected. Solor concepts are identified using a Universally Unique Identifier
-            (UUID).</para>
+            native format into a common Solor format. Once the content is in Solor, equivalency is
+            determined through various methods where concepts of the same idea are aggregated. For
+            example, Gentamycin from SNOMED CT® is the same as Gentamycin from LOINC®, and is also
+            the same Gentamycin from RxNorm. The end result from this process is the creation of a
+            Solor concept that is devoid of any source information (but will have traceability), and
+            is exposed to the user to view, use, and extend. In the Gentamycin example, a user will
+            find a concept that is devoid of any source information and will not need to know if
+            this is the SNOMED CT®/LOINC®/RxNorm Gentamycin that needs to be selected. Solor
+            concepts are identified using a Universally Unique Identifier (UUID).</para>
     </section>
     <section>
         <title>Inte<?oxy_comment_start author="tocrow" timestamp="20240624T173028-0400" comment="I think this is covered in other sections"?>roperability
